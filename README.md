@@ -9,7 +9,7 @@ GSAP and the QR library come from cdnjs; fonts from Google Fonts (Playfair Displ
 
 - **8 full language versions** — English at `/`, then `/lv/ /lt/ /ee/ /pl/ /de/ /ua/ /ru/` (hreflang, sitemap, OG image per language).
   Swedish, Finnish, Danish, Dutch, French and Spanish get the first screen only, swapped in place.
-- **37 projects**: 4 client sites (Ventsistema, Autopalīdzība, Vārtu pasaule — live; Kimela — launching) and 33 concepts,
+- **37 projects**: 3 live client sites (Ventsistema, Autopalīdzība, Vārtu pasaule) and 34 concepts,
   plus "beyond homepages" (Paceļam, the SOS app, Manufaktura Czasu).
 - Filters by country and trade, a dot map of Europe (tap a country to filter), a project sheet with laptop + phone screenshots
   and the **real page inside a phone**, before/after sliders, a receipt-style price, FAQ, and an email composer.
