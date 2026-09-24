@@ -21,7 +21,7 @@ module.exports = {
   },
   offer: {
     label: 'Pasiūlymas trimis eilutėmis',
-    s1: 'Atsiunčiu nemokamą pagrindinio puslapio koncepciją — gyva nuoroda.',
+    s1: 'Atsiunčiu nuorodą į veikiančią nemokamą pagrindinio puslapio koncepciją.',
     s2: 'Patinka → <b>300&nbsp;€</b> vieną kartą. Visa svetainė iki 5 puslapių — jūsų domene. Visi failai jūsų.',
     s3: 'Nepatinka → nieko nemokate. Paprašius koncepciją pašalinu.'
   },
@@ -38,7 +38,7 @@ module.exports = {
   work: {
     eye: 'Darbai',
     h2: '{sites} pagrindiniai puslapiai tikroms įmonėms *{countries} šalyse.*',
-    lead: 'Dauguma — koncepcijos: sukurtos iš kiekvienos įmonės viešų nuotraukų ir tekstų, be užsakymo, kaip nemokamas pirmas žingsnis. Filtruokite pagal šalį ar sritį, bakstelėkite kortelę, kad pamatytumėte arčiau.',
+    lead: 'Dauguma — koncepcijos: sukurtos iš kiekvienos įmonės viešų nuotraukų ir tekstų, be užsakymo, kaip nemokamas pirmas žingsnis. Filtruokite pagal šalį ar sritį, bakstelėkite kortelę, kad apžiūrėtumėte išsamiau.',
     byCountry: 'Šalis',
     byTrade: 'Sritis',
     all: 'Visi',
@@ -54,7 +54,7 @@ module.exports = {
   },
   ba: {
     eye: 'Prieš / po',
-    h2: 'Kaip jų svetainė atrodė telefone — ir *ką atsiunčiau atgal.*',
+    h2: 'Kaip jų svetainė atrodė telefone — ir *ką jiems atsiunčiau.*',
     lead: 'Patraukite slankiklį. Kairėje — svetainė, kurią jie turėjo, dešinėje — koncepcija, kurią gavo per dieną ar dvi.',
     before: 'Prieš', after: 'Po',
     aria: 'Palyginti seną ir naują {name} puslapį',
@@ -68,7 +68,7 @@ module.exports = {
     steps: [
       ['Aš jus randu', 'Dažniausiai įmonių kataloge: yra telefonas ir Facebook puslapis, bet nėra svetainės — arba svetainė iš 2014 metų, kuri telefone subyra.', 'Diena 0'],
       ['Rašau — jūsų kalba', 'Vienas trumpas laiškas apie vieną konkretų dalyką: nuotraukas, kurių niekas nemato, numerį, kurio negalima paspausti, svetainę, kuri neatsidaro per https.', 'Diena 0'],
-      ['Gaunate koncepciją nemokamai', 'Iš jūsų pačių nuotraukų, paslaugų ir kontaktų. Gyva nuoroda — galite atsidaryti telefone ir parodyti šeimai.', 'Diena 1–2'],
+      ['Gaunate koncepciją nemokamai', 'Iš jūsų pačių nuotraukų, paslaugų ir kontaktų. Tai veikianti nuoroda — galite ją atsidaryti telefone ir parodyti šeimai.', 'Diena 1–2'],
       ['Sakote „taip“ arba „ne“', '„Taip“ reiškia 300 € už visą svetainę, visus failus ir kodą bei mėnesį nemokamų pataisymų. „Ne“ reiškia, kad nieko nemokate, o paprašius koncepciją pašalinsiu.', 'Per savaitę']
     ]
   },
@@ -76,7 +76,7 @@ module.exports = {
     eye: 'Kaina',
     h2: '*300 €* vieną kartą. Tai visas kainoraštis.',
     lead: 'Jokių prenumeratų, jokių mėnesinių mokesčių, jokių netikėtų eilučių sąskaitoje. Domenas jūsų, kodas jūsų, talpinimas gali būti nemokamas. <b>Mokate tik tada, kai pamatėte savo pagrindinį puslapį ir pasakėte „taip“.</b>',
-    incl: ['Pagrindinio puslapio koncepcija prieš bet kokį mokėjimą', 'Visa svetainė iki 5 puslapių', 'Pirmiausia telefonui, greita', 'Jūsų kalba', 'Visi failai ir išeities kodas', 'Mėnuo nemokamų pataisymų', 'Pagalba su domenu ir talpinimu', 'El. paštas, WhatsApp, Viber, Telegram'],
+    incl: ['Pagrindinio puslapio koncepcija prieš bet kokį mokėjimą', 'Visa svetainė iki 5 puslapių', 'Sukurta pirmiausia telefonams, greita', 'Jūsų kalba', 'Visi failai ir išeities kodas', 'Mėnuo nemokamų pataisymų', 'Pagalba tvarkant domeną ir talpinimą', 'El. paštas, WhatsApp, Viber, Telegram'],
     cta: 'Noriu nemokamos koncepcijos',
     rcptTitle: 'Kvitas',
     rows: [['Pagrindinio puslapio koncepcija', '0 €'], ['Visa svetainė iki 5 puslapių', '300 €'], ['Pataisymai pirmą mėnesį', '0 €'], ['Mėnesinis mokestis', '0 €']],
@@ -100,7 +100,7 @@ module.exports = {
   },
   about: {
     eye: 'Apie mane',
-    lead: 'Dizaineris ir kūrėjas iš Kyjivo, Ukrainos. Man patinka mažos įmonės, kuriose telefonu atsiliepia pats savininkas, ir patinka akimirka, kai svetainė pagaliau parodo darbą, kuriuo jie didžiuojasi.',
+    lead: 'Dizaineris ir kūrėjas iš Kyjivo, Ukrainos. Man patinka mažos įmonės, kuriose telefonu atsiliepia pats savininkas, ir patinka akimirka, kai svetainė pagaliau parodo darbą, kuriuo jos didžiuojasi.',
     lead2: 'Su kiekvienu klientu susirašinėju jo kalba, o kiekvienas puslapis kuriamas nuo nulio vienai įmonei: be šablonų, be puslapių konstruktorių, be nieko, už ką reikėtų mokėti kas mėnesį.',
     helloLabel: 'Kalbos, kuriomis rašau klientams',
     f1: 'svetainės ir koncepcijos tikroms įmonėms',
@@ -130,12 +130,12 @@ module.exports = {
     note: 'Koncepcijos yra neužsakyti pertvarkos pasiūlymai, sukurti iš kiekvienos įmonės viešos medžiagos, ir taip pažymėti; klientų svetainės taip pat pažymėtos.'
   },
   countries: { LV: 'Latvija', LT: 'Lietuva', EE: 'Estija', PL: 'Lenkija', UA: 'Ukraina', AT: 'Austrija', SE: 'Švedija' },
-  trades: { build: 'Statyba ir remontas', systems: 'Šiluma, oras, elektra', interior: 'Baldai ir interjeras', auto: 'Automobiliai ir sunkvežimiai', care: 'Sveikata, grožis, gyvūnai', venue: 'Salės ir maistas' },
+  trades: { build: 'Statyba ir remontas', systems: 'Šildymas, vėdinimas, elektra', interior: 'Baldai ir interjeras', auto: 'Automobiliai ir sunkvežimiai', care: 'Sveikata, grožis, gyvūnai', venue: 'Salės ir maistas' },
   rt: {
     prev: 'Ankstesnis projektas', next: 'Kitas projektas', close: 'Uždaryti',
     where: 'Kur', trade: 'Sritis', language: 'Kalba',
     open: 'Atidaryti puslapį ↗', tryPhone: 'Išbandyti telefone', back: '← Atgal',
-    frameTitle: 'Gyvas puslapis', frameHint: 'Tai tikras puslapis, ne ekrano nuotrauka. Jį galima slinkti.',
+    frameTitle: 'Veikiantis puslapis', frameHint: 'Tai tikras puslapis, ne ekrano nuotrauka. Jį galima slinkti.',
     kindConcept: 'Koncepcija · ne oficiali svetainė', kindLive: 'Kliento svetainė', kindClient: 'Kliento svetainė · netrukus', kindLab: 'Ne tik pagrindiniai puslapiai',
     noteConcept: 'Sukurta iš viešų įmonės nuotraukų ir tekstų, be užsakymo. Tai ne jų oficiali svetainė.',
     noteLive: 'Veikia paties kliento domene.',
@@ -143,7 +143,7 @@ module.exports = {
     count: '{i} iš {n}',
     hiTitle: 'Laba diena, {name}!',
     hiText: 'Tai portfolio, iš kurio atkeliavo jūsų koncepcija.',
-    hiOpen: 'Atidaryti jūsų koncepciją ↗',
+    hiOpen: 'Atidaryti savo koncepciją ↗',
     you: 'Jūsų koncepcija',
     clockOn: 'Kyjive dabar {t} — greičiausiai atsakysiu netrukus.',
     clockOff: 'Kyjive dabar {t} — atsakysiu ryte.',
