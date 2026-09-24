@@ -1,0 +1,14 @@
+{
+  "name": "Vasylian — Artur Vasilyan",
+  "short_name": "Vasylian",
+  "description": "Websites for people who work with their hands. A free homepage concept first, 300 € once only if you like it.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#f4f1ea",
+  "theme_color": "#141412",
+  "icons": [
+    { "src": "/assets/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/assets/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/assets/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
