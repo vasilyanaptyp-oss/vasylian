@@ -27,6 +27,10 @@ const EXTRA = require('./i18n/extra.cjs');                  // hero-only pitches
 const W = require('./works.cjs');
 const MAP = JSON.parse(fs.readFileSync(path.join(__dirname, 'map.json'), 'utf8'));
 
+/* cache-busting: the file's own hash, so a returning visitor never mixes new HTML with an old stylesheet */
+const ver = f => require('crypto').createHash('sha1').update(fs.readFileSync(path.join(ROOT, f))).digest('hex').slice(0, 8);
+const V_CSS = ver('assets/css/style.css'), V_JS = ver('assets/js/main.js');
+
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const fill = (s, o) => String(s).replace(/\{(\w+)\}/g, (m, k) => (k in o ? o[k] : m));
 const em = s => esc(s).replace(/\*(.+?)\*/g, '<em>$1</em>');      // *accent* → <em>
@@ -205,7 +209,7 @@ ${alternates}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="${P}assets/css/style.css">
+<link rel="stylesheet" href="${P}assets/css/style.css?v=${V_CSS}">
 <script>(function(d){d.classList.add('js');try{var t=localStorage.getItem('theme');if(t)d.setAttribute('data-theme',t)}catch(e){}if(!matchMedia('(prefers-reduced-motion: reduce)').matches){d.classList.add('js-anim');setTimeout(function(){d.classList.remove('js-anim')},2500)}})(document.documentElement)</script>
 <script type="application/ld+json">${JSON.stringify(ld)}</script>
 </head>
@@ -463,7 +467,7 @@ ${t.faq.items.map((q, i) => `      <details data-rv${i === 0 ? ' open' : ''}><su
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha384-g4NTh/Iv5PPU4xPyhEWqPcwtNXOvdaDI8LLnyYfyNZOjKJeYQyjzQ9X5275eBjpt" crossorigin="anonymous" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha384-Z3REaz79l2IaAZqJsSABtTbhjgOUYyV3p90XNnAPCSHg3EMTz1fouunq9WZRtj3d" crossorigin="anonymous" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha384-3zSEDfvllQohrq0PHL1fOXJuC/jSOO34H46t6UQfobFOmxE5BpjjaIJY5F2/bMnU" crossorigin="anonymous" defer></script>
-<script src="${P}assets/js/main.js" defer></script>
+<script src="${P}assets/js/main.js?v=${V_JS}" defer></script>
 </body>
 </html>
 `;
