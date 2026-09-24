@@ -1,4 +1,6 @@
-# vasylian.com — portfolio of Artur Vasilyan
+# [vasylian.com](https://vasylian.com/) — portfolio of Artur Vasilyan (Vasylian)
+
+Artur Vasilyan, also spelled Artur Vasylian (Артур Васильян) — web designer and developer. Live site: **[vasylian.com](https://vasylian.com/)**.
 
 Static site, no framework: HTML generated once per language, one stylesheet, one script.
 GSAP and the QR library come from cdnjs; fonts from Google Fonts (Playfair Display + Inter).
