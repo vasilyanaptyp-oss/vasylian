@@ -1,7 +1,7 @@
 module.exports = {
   meta: {
-    title: 'Artur Vasilyan — Websites für Menschen, die mit ihren Händen arbeiten',
-    desc: 'Webdesigner und Entwickler. Für kleine Handwerksbetriebe in ganz Europa baue ich kostenlos ein Startseiten-Konzept; 300 € zahlen Sie nur, wenn Ihnen das Ergebnis gefällt. {sites} Websites in {countries} Ländern, in Ihrer Sprache.',
+    title: 'Artur Vasilyan (Vasylian) — Websites für Menschen, die mit ihren Händen arbeiten',
+    desc: 'Artur Vasilyan (auch Vasylian), Webdesigner und Entwickler in Kyjiw. Für kleine Handwerksbetriebe in ganz Europa baue ich kostenlos ein Startseiten-Konzept; 300 € zahlen Sie nur, wenn Ihnen das Ergebnis gefällt. {sites} Websites in {countries} Ländern, in Ihrer Sprache.',
     og: 'Erst ein kostenloses Startseiten-Konzept. 300 € einmalig, nur wenn es gefällt. In Ihrer Sprache.',
     offer: 'Erst ein kostenloses Startseiten-Konzept; die komplette Website (bis 5 Seiten) für einmalig 300 € — nur wenn der Kunde Ja sagt.'
   },
@@ -100,6 +100,8 @@ module.exports = {
   },
   about: {
     eye: 'Über mich',
+    name: 'Artur Vasilyan.',
+    aka: 'Mein Name wird auch Artur Vasylian geschrieben, daher vasylian.com. Auf Kyrillisch: Артур Васильян.',
     lead: 'Designer und Entwickler in Kyjiw, Ukraine. Ich mag kleine Betriebe, in denen die Chefin oder der Chef selbst ans Telefon geht, und ich mag den Moment, in dem eine Website endlich die Arbeit zeigt, auf die sie stolz sind.',
     lead2: 'Ich schreibe jedem Kunden in seiner Sprache, und jede Seite entsteht von Grund auf für einen Betrieb: ohne Vorlagen, ohne Baukasten, ohne irgendetwas, das Sie jeden Monat bezahlen müssen.',
     helloLabel: 'Sprachen, in denen ich Kunden schreibe',
@@ -126,6 +128,7 @@ module.exports = {
   },
   bar: { label: 'Schnellzugriff', price: '300 € · so läuft es', cta: 'Gratis-Konzept' },
   foot: {
+    name: 'Artur Vasilyan (Vasylian)',
     city: 'Kyjiw',
     note: 'Die Konzeptseiten sind unaufgeforderte Redesign-Vorschläge aus öffentlichen Materialien des jeweiligen Betriebs und als solche gekennzeichnet; Kunden-Websites sind ebenfalls gekennzeichnet.'
   },

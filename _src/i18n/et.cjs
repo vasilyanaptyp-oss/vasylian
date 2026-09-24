@@ -1,7 +1,7 @@
 module.exports = {
   meta: {
-    title: 'Artur Vasilyan — kodulehed neile, kes töötavad oma kätega',
-    desc: 'Veebidisainer ja arendaja. Teen väikestele töökodadele üle Euroopa tasuta avalehe kavandi; 300 € maksate ainult siis, kui tulemus meeldib. {sites} kodulehte {countries} riigis, teie keeles.',
+    title: 'Artur Vasilyan (Vasylian) — kodulehed neile, kes töötavad oma kätega',
+    desc: 'Artur Vasilyan (ka Vasylian) — veebidisainer ja arendaja Kiievist. Teen väikestele töökodadele üle Euroopa tasuta avalehe kavandi; 300 € maksate ainult siis, kui tulemus meeldib. {sites} kodulehte {countries} riigis, teie keeles.',
     og: 'Kõigepealt tasuta avalehe kavand. 300 € ühe korra, ainult kui meeldib. Teie keeles.',
     offer: 'Kõigepealt tasuta avalehe kavand; terve koduleht (kuni 5 lehte) 300 € eest ühe korra — ainult kui klient ütleb „jah“.'
   },
@@ -100,6 +100,8 @@ module.exports = {
   },
   about: {
     eye: 'Minust',
+    name: 'Artur Vasilyan.',
+    aka: 'Minu nime kirjutatakse ka Artur Vasylian, sellest ka vasylian.com. Kirillitsas: Артур Васильян.',
     lead: 'Disainer ja arendaja Kiievist, Ukrainast. Mulle meeldivad väikesed ettevõtted, kus telefonile vastab omanik ise, ja mulle meeldib hetk, kui koduleht lõpuks näitab tööd, mille üle nad uhked on.',
     lead2: 'Kirjutan igale kliendile tema keeles ja iga leht tehakse nullist ühe ettevõtte jaoks: ilma mallideta, ilma veebilehe-ehitajateta ja ilma kuutasudeta.',
     helloLabel: 'Keeled, milles kirjutan klientidele',
@@ -126,6 +128,7 @@ module.exports = {
   },
   bar: { label: 'Kiirtoimingud', price: '300 € · kuidas see käib', cta: 'Tasuta kavand' },
   foot: {
+    name: 'Artur Vasilyan (Vasylian)',
     city: 'Kiiev',
     note: 'Kavandid on tellimata ümberkujundusettepanekud, mis on tehtud iga ettevõtte avalikest materjalidest ja nii ka märgitud; kliendi kodulehed on samuti märgitud.'
   },

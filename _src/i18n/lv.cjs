@@ -1,7 +1,7 @@
 module.exports = {
   meta: {
-    title: 'Artur Vasilyan — mājaslapas tiem, kas strādā ar rokām',
-    desc: 'Tīmekļa dizainers un izstrādātājs. Maziem amatnieku uzņēmumiem visā Eiropā bez maksas izveidoju sākumlapas konceptu; 300 € jāmaksā tikai tad, ja rezultāts patīk. {sites} mājaslapas {countries} valstīs, jūsu valodā.',
+    title: 'Artur Vasilyan (Vasylian) — mājaslapas tiem, kas strādā ar rokām',
+    desc: 'Artur Vasilyan (arī Vasylian) — tīmekļa dizainers un izstrādātājs no Kijivas. Maziem amatnieku uzņēmumiem visā Eiropā bez maksas izveidoju sākumlapas konceptu; 300 € jāmaksā tikai tad, ja rezultāts patīk. {sites} mājaslapas {countries} valstīs, jūsu valodā.',
     og: 'Vispirms — bezmaksas sākumlapas koncepts. 300 € vienreiz, tikai ja patīk. Jūsu valodā.',
     offer: 'Vispirms bezmaksas sākumlapas koncepts; pilna mājaslapa (līdz 5 lapām) par 300 € vienreiz — tikai ja klients saka „jā”.'
   },
@@ -100,6 +100,8 @@ module.exports = {
   },
   about: {
     eye: 'Par mani',
+    name: 'Artur Vasilyan.',
+    aka: 'Mans vārds tiek rakstīts arī kā Artur Vasylian, no tā arī vasylian.com. Kirilicā: Артур Васильян.',
     lead: 'Dizainers un izstrādātājs Kijivā, Ukrainā. Man patīk mazi uzņēmumi, kur uz zvanu atbild pats īpašnieks, un man patīk brīdis, kad mājaslapa beidzot parāda darbu, ar ko viņi lepojas.',
     lead2: 'Ar katru klientu sarakstos klienta valodā, un katra lapa tiek veidota no nulles vienam uzņēmumam: bez šabloniem, bez lapu konstruktoriem, bez nekā, par ko jāmaksā katru mēnesi.',
     helloLabel: 'Valodas, kurās rakstu klientiem',
@@ -126,6 +128,7 @@ module.exports = {
   },
   bar: { label: 'Ātrās darbības', price: '300 € · kā tas notiek', cta: 'Bezmaksas koncepts' },
   foot: {
+    name: 'Artur Vasilyan (Vasylian)',
     city: 'Kijiva',
     note: 'Koncepti ir nepasūtīti pārveides priekšlikumi, veidoti no katra uzņēmuma publiskajiem materiāliem, un tie ir tā arī atzīmēti; klientu mājaslapas arī ir atzīmētas.'
   },

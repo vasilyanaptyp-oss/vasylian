@@ -2,8 +2,8 @@
    *word* marks the accent (italic, orange). {n}, {sites}, {countries} … are filled by build.cjs. */
 module.exports = {
   meta: {
-    title: 'Artur Vasilyan — websites for people who work with their hands',
-    desc: 'Web designer and developer. I build a free homepage concept for small craft businesses across Europe; you pay a flat 300 € only if you like it. {sites} sites in {countries} countries, written in your language.',
+    title: 'Artur Vasilyan (Vasylian) — websites for people who work with their hands',
+    desc: 'Artur Vasilyan (also spelled Vasylian), web designer and developer in Kyiv. I build a free homepage concept for small craft businesses across Europe; you pay a flat 300 € only if you like it. {sites} sites in {countries} countries, written in your language.',
     og: 'A free homepage concept first. 300 € once, only if you like it. Written in your language.',
     offer: 'A free homepage concept first; the full site (up to 5 pages) for 300 € once, only if the client says yes.'
   },
@@ -102,6 +102,8 @@ module.exports = {
   },
   about: {
     eye: 'About',
+    name: 'Artur Vasilyan.',
+    aka: 'Also spelled Artur Vasylian, hence vasylian.com. In Cyrillic: Артур Васильян.',
     lead: 'Designer and developer in Kyiv, Ukraine. I like small companies where the owner answers the phone, and I like it when a site finally shows the work they are proud of.',
     lead2: 'I write to every client in their own language, and every page is built from scratch for one business: no templates, no page builders, nothing you have to pay for every month.',
     helloLabel: 'Languages I write to clients in',
@@ -128,6 +130,7 @@ module.exports = {
   },
   bar: { label: 'Quick actions', price: '300 € · how it works', cta: 'Free concept' },
   foot: {
+    name: 'Artur Vasilyan (Vasylian)',
     city: 'Kyiv',
     note: 'Concept pages are unsolicited redesign proposals built from each business’s public materials and are marked as such; client sites are marked too.'
   },

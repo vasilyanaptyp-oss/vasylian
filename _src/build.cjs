@@ -173,11 +173,17 @@ function page(L) {
   const ld = {
     '@context': 'https://schema.org',
     '@graph': [
-      { '@type': 'Person', '@id': SITE + '#artur', name: 'Artur Vasilyan', jobTitle: 'Web designer & developer', email: 'mailto:' + MAIL, url: SITE,
+      { '@type': 'WebSite', '@id': SITE + '#website', url: SITE, name: 'Vasylian', alternateName: ['Artur Vasilyan', 'Artur Vasylian', 'vasylian.com', 'Артур Васильян'],
+        inLanguage: LANGS.map(l => l.hl), publisher: { '@id': SITE + '#artur' } },
+      { '@type': 'Person', '@id': SITE + '#artur', name: 'Artur Vasilyan', alternateName: ['Artur Vasylian', 'Vasylian', 'Vasilyan', 'Артур Васильян'],
+        givenName: 'Artur', familyName: 'Vasilyan', jobTitle: 'Web designer & developer', email: 'mailto:' + MAIL, url: SITE,
+        sameAs: ['https://github.com/vasilyanaptyp-oss'], worksFor: { '@id': SITE + '#service' },
         address: { '@type': 'PostalAddress', addressLocality: 'Kyiv', addressCountry: 'UA' },
         knowsLanguage: ['uk', 'ru', 'en', 'lv', 'lt', 'et', 'pl', 'de', 'sv', 'fi', 'da', 'nl', 'fr'] },
-      { '@type': 'ProfessionalService', '@id': SITE + '#service', name: 'Artur Vasilyan — websites for small businesses', url, email: 'mailto:' + MAIL,
-        founder: { '@id': SITE + '#artur' }, areaServed: ['LV', 'LT', 'EE', 'PL', 'UA', 'AT', 'SE', 'DE'].map(x => ({ '@type': 'Country', name: x })),
+      { '@type': 'ProfessionalService', '@id': SITE + '#service', name: 'Vasylian', alternateName: 'Artur Vasilyan — websites for small businesses', url: SITE, email: 'mailto:' + MAIL,
+        logo: SITE + 'assets/icon-512.png', image: SITE + 'assets/og/' + code + '.jpg',
+        address: { '@type': 'PostalAddress', addressLocality: 'Kyiv', addressCountry: 'UA' },
+        founder: { '@id': SITE + '#artur' }, areaServed: ['Latvia', 'Lithuania', 'Estonia', 'Poland', 'Ukraine', 'Austria', 'Sweden', 'Germany'].map(x => ({ '@type': 'Country', name: x })),
         priceRange: '€300', inLanguage: L.hl,
         makesOffer: { '@type': 'Offer', price: '300', priceCurrency: 'EUR', description: t.meta.offer } }
     ]
@@ -196,7 +202,7 @@ function page(L) {
 <link rel="canonical" href="${url}">
 ${alternates}
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Artur Vasilyan">
+<meta property="og:site_name" content="Vasylian">
 <meta property="og:locale" content="${L.og}">
 <meta property="og:title" content="${esc(t.meta.title)}">
 <meta property="og:description" content="${esc(t.meta.og)}">
@@ -205,12 +211,16 @@ ${alternates}
 <meta property="og:image:height" content="630">
 <meta property="og:url" content="${url}">
 <meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="${P}favicon.ico" sizes="48x48">
 <link rel="icon" href="${P}assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="${P}assets/icon-96.png" type="image/png" sizes="96x96">
+<link rel="apple-touch-icon" href="${P}assets/apple-touch-icon.png">
+<link rel="manifest" href="${P}site.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="${P}assets/css/style.css?v=${V_CSS}">
-<script>(function(d){d.classList.add('js');try{var t=localStorage.getItem('theme');if(t)d.setAttribute('data-theme',t)}catch(e){}if(!matchMedia('(prefers-reduced-motion: reduce)').matches){d.classList.add('js-anim');setTimeout(function(){d.classList.remove('js-anim')},2500)}})(document.documentElement)</script>
+<script>(function(d){d.classList.add('js');try{var t=localStorage.getItem('theme');if(t)d.setAttribute('data-theme',t)}catch(e){}if(!matchMedia('(prefers-reduced-motion: reduce)').matches){d.classList.add('js-anim');setTimeout(function(){d.classList.remove('js-anim')},1200)}})(document.documentElement)</script>
 <script type="application/ld+json">${JSON.stringify(ld)}</script>
 </head>
 <body>
@@ -370,7 +380,8 @@ ${t.faq.items.map((q, i) => `      <details data-rv${i === 0 ? ' open' : ''}><su
   <div class="wrap about__grid">
     <div>
       <p class="eyebrow">${esc(t.about.eye)}</p>
-      <h2>Artur Vasilyan.</h2>
+      <h2>${esc(t.about.name)}</h2>
+      <p class="about__aka">${esc(t.about.aka)}</p>
       <p class="lead">${esc(t.about.lead)}</p>
       <p class="lead">${esc(t.about.lead2)}</p>
       <div class="hello" aria-label="${esc(t.about.helloLabel)}">${['Labdien', 'Laba diena', 'Tere', 'Dzień dobry', 'Guten Tag', 'Hej', 'Hyvää päivää', 'Goddag', 'Goedendag', 'Bonjour', 'Hello', 'Добрий день', 'Добрый день'].map(h => `<span>${h}</span>`).join('')}</div>
@@ -457,7 +468,7 @@ ${t.faq.items.map((q, i) => `      <details data-rv${i === 0 ? ' open' : ''}><su
 <footer class="ftr">
   <div class="greet" aria-hidden="true"><div class="greet__track">${(() => { const g = ['Labdien', 'Laba diena', 'Tere', 'Dzień dobry', 'Guten Tag', 'Hello', 'Добрий день', 'Hej', 'Bonjour', 'Goedendag']; const s = g.map(x => `<span>${x}</span>`).join(''); return s + s; })()}</div></div>
   <div class="wrap ftr__in">
-    <span>© 2026 Artur Vasilyan · ${esc(t.foot.city)}</span>
+    <span>© 2026 ${esc(t.foot.name)} · ${esc(t.foot.city)}</span>
     <nav class="ftr__langs" aria-label="${esc(t.nav.lang)}">${langLinks(code).join('')}</nav>
     <p>${esc(t.foot.note)}</p>
   </div>
@@ -486,9 +497,10 @@ fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), `<?xml version="1.0" encoding="
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 ${LANGS.map(L => `  <url><loc>${SITE}${L.dir}</loc><lastmod>${today}</lastmod>
 ${LANGS.map(A => `    <xhtml:link rel="alternate" hreflang="${A.hl}" href="${SITE}${A.dir}"/>`).join('\n')}
+    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE}"/>
   </url>`).join('\n')}
 </urlset>
 `);
 fs.writeFileSync(path.join(ROOT, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${SITE}sitemap.xml\n`);
-fs.writeFileSync(path.join(ROOT, '404.html'), `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Not found — Artur Vasilyan</title><meta name="robots" content="noindex"><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#f4f1ea;color:#141412;font:17px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;padding:24px;text-align:center}h1{font:600 clamp(2rem,6vw,3.5rem)/1.05 Georgia,serif;letter-spacing:-.02em;margin:0 0 .6rem}a{display:inline-block;margin-top:1.2rem;padding:.8rem 1.4rem;border-radius:999px;background:#141412;color:#f4f1ea;text-decoration:none;font-weight:600}@media (prefers-color-scheme:dark){body{background:#141412;color:#f4f1ea}a{background:#ff5a14;color:#141412}}</style></head><body><main><h1>This page is not here.</h1><p>The portfolio and all ${N.sites} sites are one click away.</p><a href="/">vasylian.com</a></main></body></html>\n`);
+fs.writeFileSync(path.join(ROOT, '404.html'), `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Not found — Artur Vasilyan (Vasylian)</title><meta name="robots" content="noindex"><link rel="icon" href="/favicon.ico" sizes="48x48"><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png"><style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#f4f1ea;color:#141412;font:17px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;padding:24px;text-align:center}h1{font:600 clamp(2rem,6vw,3.5rem)/1.05 Georgia,serif;letter-spacing:-.02em;margin:0 0 .6rem}a{display:inline-block;margin-top:1.2rem;padding:.8rem 1.4rem;border-radius:999px;background:#141412;color:#f4f1ea;text-decoration:none;font-weight:600}@media (prefers-color-scheme:dark){body{background:#141412;color:#f4f1ea}a{background:#ff5a14;color:#141412}}</style></head><body><main><h1>This page is not here.</h1><p>The portfolio and all ${N.sites} sites are one click away.</p><a href="/">vasylian.com</a></main></body></html>\n`);
 console.log('numbers', N);

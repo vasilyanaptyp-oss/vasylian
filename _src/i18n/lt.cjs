@@ -1,7 +1,7 @@
 module.exports = {
   meta: {
-    title: 'Artur Vasilyan — svetainės tiems, kas dirba rankomis',
-    desc: 'Svetainių dizaineris ir kūrėjas. Mažoms meistrų įmonėms visoje Europoje nemokamai paruošiu pagrindinio puslapio koncepciją; 300 € mokate tik tada, jei rezultatas patinka. {sites} svetainės {countries} šalyse, jūsų kalba.',
+    title: 'Artur Vasilyan (Vasylian) — svetainės tiems, kas dirba rankomis',
+    desc: 'Artur Vasilyan (arba Vasylian) — svetainių dizaineris ir kūrėjas iš Kyjivo. Mažoms meistrų įmonėms visoje Europoje nemokamai paruošiu pagrindinio puslapio koncepciją; 300 € mokate tik tada, jei rezultatas patinka. {sites} svetainės {countries} šalyse, jūsų kalba.',
     og: 'Pirmiausia — nemokama pagrindinio puslapio koncepcija. 300 € vieną kartą, tik jei patiks. Jūsų kalba.',
     offer: 'Pirmiausia nemokama pagrindinio puslapio koncepcija; visa svetainė (iki 5 puslapių) už 300 € vieną kartą — tik jei klientas sako „taip“.'
   },
@@ -100,6 +100,8 @@ module.exports = {
   },
   about: {
     eye: 'Apie mane',
+    name: 'Artur Vasilyan.',
+    aka: 'Mano vardas rašomas ir Artur Vasylian, iš čia vasylian.com. Kirilica: Артур Васильян.',
     lead: 'Dizaineris ir kūrėjas iš Kyjivo, Ukrainos. Man patinka mažos įmonės, kuriose telefonu atsiliepia pats savininkas, ir patinka akimirka, kai svetainė pagaliau parodo darbą, kuriuo jos didžiuojasi.',
     lead2: 'Su kiekvienu klientu susirašinėju jo kalba, o kiekvienas puslapis kuriamas nuo nulio vienai įmonei: be šablonų, be puslapių konstruktorių, be nieko, už ką reikėtų mokėti kas mėnesį.',
     helloLabel: 'Kalbos, kuriomis rašau klientams',
@@ -126,6 +128,7 @@ module.exports = {
   },
   bar: { label: 'Greiti veiksmai', price: '300 € · kaip tai vyksta', cta: 'Nemokama koncepcija' },
   foot: {
+    name: 'Artur Vasilyan (Vasylian)',
     city: 'Kyjivas',
     note: 'Koncepcijos yra neužsakyti pertvarkos pasiūlymai, sukurti iš kiekvienos įmonės viešos medžiagos, ir taip pažymėti; klientų svetainės taip pat pažymėtos.'
   },

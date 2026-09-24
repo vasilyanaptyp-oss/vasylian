@@ -1,7 +1,7 @@
 module.exports = {
   meta: {
-    title: 'Artur Vasilyan — strony dla ludzi, którzy pracują rękami',
-    desc: 'Projektowanie i programowanie stron. Małym firmom rzemieślniczym w całej Europie robię za darmo projekt strony głównej; 300 € płacą Państwo tylko wtedy, gdy wynik się spodoba. {sites} stron w {countries} krajach, w Państwa języku.',
+    title: 'Artur Vasilyan (Vasylian) — strony dla ludzi, którzy pracują rękami',
+    desc: 'Artur Vasilyan (także Vasylian): projektowanie i programowanie stron, Kijów. Małym firmom rzemieślniczym w całej Europie robię za darmo projekt strony głównej; 300 € płacą Państwo tylko wtedy, gdy wynik się spodoba. {sites} stron w {countries} krajach, w Państwa języku.',
     og: 'Najpierw darmowy projekt strony głównej. 300 € jednorazowo, tylko jeśli się spodoba. W Państwa języku.',
     offer: 'Najpierw darmowy projekt strony głównej; cała strona (do 5 podstron) za 300 € jednorazowo — tylko jeśli klient powie „tak”.'
   },
@@ -100,6 +100,8 @@ module.exports = {
   },
   about: {
     eye: 'O mnie',
+    name: 'Artur Vasilyan.',
+    aka: 'Moje nazwisko zapisuje się też jako Vasylian, stąd vasylian.com. Cyrylicą: Артур Васильян.',
     lead: 'Projektuję i programuję strony w Kijowie. Lubię małe firmy, w których telefon odbiera sam właściciel, i lubię moment, gdy strona wreszcie pokazuje pracę, z której są dumni.',
     lead2: 'Z każdym klientem piszę w jego języku, a każda strona powstaje od zera dla jednej firmy: bez szablonów, bez kreatorów stron i bez niczego, za co trzeba płacić co miesiąc.',
     helloLabel: 'Języki, w których piszę do klientów',
@@ -126,6 +128,7 @@ module.exports = {
   },
   bar: { label: 'Szybkie akcje', price: '300 € · jak to działa', cta: 'Darmowy projekt' },
   foot: {
+    name: 'Artur Vasilyan (Vasylian)',
     city: 'Kijów',
     note: 'Darmowe projekty to niezamówione propozycje przeprojektowania, zrobione z publicznych materiałów każdej firmy i tak oznaczone; strony klientów też są oznaczone.'
   },
