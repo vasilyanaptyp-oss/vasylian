@@ -12,7 +12,7 @@ module.exports = {
     sub: 'Väravad, köögid, katused, remont, autotöökojad, veokipesulad. Otsin väikeseid töökodasid, mida internetist on raske leida, teen neile tasuta avalehe kavandi — ja alates <b>300&nbsp;€</b> maksate ainult siis, kui tulemus teile meeldib.',
     readIn: 'Loe',
     cta1: 'Saa tasuta kavand',
-    cta2: 'Kõik {n} kodulehte →',
+    cta2: 'Kõik {n} projekti →',
     factsLabel: 'Arvudes',
     fSites: 'kodulehte ja kavandit',
     fClients: 'kliendi kodulehte',

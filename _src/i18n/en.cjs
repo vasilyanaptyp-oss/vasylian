@@ -14,7 +14,7 @@ module.exports = {
     sub: 'Gates, kitchens, roofs, renovations, car workshops, truck washes. I find small craft businesses that are hard to find online, build them a free homepage concept — and you pay from <b>300&nbsp;€</b>, once, only if you like the result.',
     readIn: 'Read this in',
     cta1: 'Get a free concept',
-    cta2: 'See all {n} sites →',
+    cta2: 'See all {n} projects →',
     factsLabel: 'In numbers',
     fSites: 'sites and concepts built',
     fClients: 'client sites',

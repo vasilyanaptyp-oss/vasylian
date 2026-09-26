@@ -12,7 +12,7 @@ module.exports = {
     sub: 'Vārti, virtuves, jumti, remonti, autoservisi, kravas auto mazgātavas. Meklēju mazus amatnieku uzņēmumus, kurus internetā grūti atrast, bez maksas izveidoju sākumlapas konceptu — un no <b>300&nbsp;€</b> jāmaksā tikai tad, ja rezultāts jums patīk.',
     readIn: 'Lasīt',
     cta1: 'Saņemt bezmaksas konceptu',
-    cta2: 'Visas {n} mājaslapas →',
+    cta2: 'Visi {n} projekti →',
     factsLabel: 'Skaitļos',
     fSites: 'mājaslapas un koncepti',
     fClients: 'klientu mājaslapas',

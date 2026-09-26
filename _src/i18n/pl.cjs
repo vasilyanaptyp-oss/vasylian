@@ -12,7 +12,7 @@ module.exports = {
     sub: 'Bramy, kuchnie, dachy, remonty, warsztaty, myjnie ciężarówek. Znajduję małe firmy rzemieślnicze, których nie widać w internecie, robię im za darmo projekt strony głównej, a od <b>300&nbsp;€</b> (ok. 1&nbsp;300&nbsp;zł) płacą tylko wtedy, gdy im się spodoba.',
     readIn: 'Wersje językowe',
     cta1: 'Chcę darmowy projekt',
-    cta2: 'Wszystkie {n} stron →',
+    cta2: 'Wszystkie {n} projektów →',
     factsLabel: 'W liczbach',
     fSites: 'stron i projektów',
     fClients: 'strony klientów',

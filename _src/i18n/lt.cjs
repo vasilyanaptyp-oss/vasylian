@@ -12,7 +12,7 @@ module.exports = {
     sub: 'Vartai, virtuvės, stogai, remontas, autoservisai, sunkvežimių plovyklos. Ieškau mažų meistrų įmonių, kurių internete beveik nematyti, nemokamai paruošiu pagrindinio puslapio koncepciją, o nuo <b>300&nbsp;€</b> mokate tik tada, jei rezultatas patinka.',
     readIn: 'Skaityti',
     cta1: 'Gauti nemokamą koncepciją',
-    cta2: 'Visos {n} svetainės →',
+    cta2: 'Visi {n} projektai →',
     factsLabel: 'Skaičiais',
     fSites: 'svetainės ir koncepcijos',
     fClients: 'klientų svetainės',

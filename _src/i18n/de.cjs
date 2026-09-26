@@ -12,7 +12,7 @@ module.exports = {
     sub: 'Tore, Küchen, Dächer, Sanierungen, Werkstätten, Lkw-Waschanlagen. Ich finde kleine Handwerksbetriebe, die online kaum zu finden sind, baue ihnen kostenlos ein Startseiten-Konzept — und Sie zahlen ab <b>300&nbsp;€</b> einmalig, aber nur, wenn Ihnen das Ergebnis gefällt.',
     readIn: 'Lesen auf',
     cta1: 'Kostenloses Konzept anfragen',
-    cta2: 'Alle {n} Websites →',
+    cta2: 'Alle {n} Projekte →',
     factsLabel: 'In Zahlen',
     fSites: 'Websites und Konzepte',
     fClients: 'Kunden-Websites',
