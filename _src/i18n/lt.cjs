@@ -1,15 +1,15 @@
 module.exports = {
   meta: {
-    title: 'Artur Vasilyan (Vasylian) — svetainės tiems, kas dirba rankomis',
-    desc: 'Artur Vasilyan (arba Vasylian) — svetainių dizaineris ir kūrėjas iš Kyjivo. Mažoms meistrų įmonėms visoje Europoje nemokamai paruošiu pagrindinio puslapio koncepciją; 300 € mokate tik tada, jei rezultatas patinka. {sites} svetainės {countries} šalyse, jūsų kalba.',
-    og: 'Pirmiausia — nemokama pagrindinio puslapio koncepcija. 300 € vieną kartą, tik jei patiks. Jūsų kalba.',
+    title: 'Svetainių kūrimas mažoms įmonėms — nuo 300 € | Artur Vasilyan',
+    desc: 'Nemokama pagrindinio puslapio koncepcija statybų, stogų ir autoservisų įmonėms. Svetainė nuo 300 € vieną kartą, be mėnesinio mokesčio.',
+    og: 'Pirmiausia — nemokama pagrindinio puslapio koncepcija. Nuo 300 € vieną kartą, tik jei patiks. Jūsų kalba.',
     offer: 'Pirmiausia nemokama pagrindinio puslapio koncepcija; visa svetainė (iki 5 puslapių) už 300 € vieną kartą — tik jei klientas sako „taip“.'
   },
   nav: { label: 'Pagrindinis meniu', home: 'pradžia', work: 'Darbai', clients: 'Klientai', process: 'Kaip tai vyksta', price: 'Kaina', faq: 'Klausimai', cta: 'Nemokama koncepcija', lang: 'Kalba', theme: 'Šviesi / tamsi', themeDark: 'Įjungti tamsią temą', skip: 'Pereiti prie darbų' },
   hero: {
     eye: 'Svetainių dizaineris ir kūrėjas · dirbu su įmonėmis visoje Europoje',
     h1: 'Svetainės tiems, kas dirba *rankomis.*',
-    sub: 'Vartai, virtuvės, stogai, remontas, autoservisai, sunkvežimių plovyklos. Ieškau mažų meistrų įmonių, kurių internete beveik nematyti, nemokamai paruošiu pagrindinio puslapio koncepciją, o <b>300&nbsp;€</b> mokate tik tada, jei rezultatas patinka.',
+    sub: 'Vartai, virtuvės, stogai, remontas, autoservisai, sunkvežimių plovyklos. Ieškau mažų meistrų įmonių, kurių internete beveik nematyti, nemokamai paruošiu pagrindinio puslapio koncepciją, o nuo <b>300&nbsp;€</b> mokate tik tada, jei rezultatas patinka.',
     readIn: 'Skaityti',
     cta1: 'Gauti nemokamą koncepciją',
     cta2: 'Visos {n} svetainės →',
@@ -74,7 +74,7 @@ module.exports = {
   },
   price: {
     eye: 'Kaina',
-    h2: '*300 €* vieną kartą. Tai visas kainoraštis.',
+    h2: '*Nuo 300 €* vieną kartą. Be mėnesinio mokesčio.',
     lead: 'Jokių prenumeratų, jokių mėnesinių mokesčių, jokių netikėtų eilučių sąskaitoje. Domenas jūsų, kodas jūsų, talpinimas gali būti nemokamas. <b>Mokate tik tada, kai pamatėte savo pagrindinį puslapį ir pasakėte „taip“.</b>',
     incl: ['Pagrindinio puslapio koncepcija prieš bet kokį mokėjimą', 'Visa svetainė iki 5 puslapių', 'Sukurta pirmiausia telefonams, greita', 'Jūsų kalba', 'Visi failai ir išeities kodas', 'Mėnuo nemokamų pataisymų', 'Pagalba tvarkant domeną ir talpinimą', 'El. paštas, WhatsApp, Viber, Telegram'],
     cta: 'Noriu nemokamos koncepcijos',

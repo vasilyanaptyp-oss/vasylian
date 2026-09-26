@@ -1,15 +1,15 @@
 module.exports = {
   meta: {
-    title: 'Artur Vasilyan (Vasylian) — strony dla ludzi, którzy pracują rękami',
-    desc: 'Artur Vasilyan (także Vasylian): projektowanie i programowanie stron, Kijów. Małym firmom rzemieślniczym w całej Europie robię za darmo projekt strony głównej; 300 € płacą Państwo tylko wtedy, gdy wynik się spodoba. {sites} stron w {countries} krajach, w Państwa języku.',
-    og: 'Najpierw darmowy projekt strony głównej. 300 € jednorazowo, tylko jeśli się spodoba. W Państwa języku.',
+    title: 'Strony dla firm rzemieślniczych — od 300 € | Artur Vasilyan',
+    desc: 'Darmowy projekt strony głównej dla firm budowlanych, dekarskich i warsztatów. Strona od 300 € jednorazowo — płacą Państwo tylko, jeśli się spodoba.',
+    og: 'Najpierw darmowy projekt strony głównej. Od 300 € jednorazowo, tylko jeśli się spodoba. W Państwa języku.',
     offer: 'Najpierw darmowy projekt strony głównej; cała strona (do 5 podstron) za 300 € jednorazowo — tylko jeśli klient powie „tak”.'
   },
   nav: { label: 'Menu główne', home: 'strona główna', work: 'Realizacje', clients: 'Klienci', process: 'Jak to działa', price: 'Cena', faq: 'Pytania', cta: 'Darmowy projekt', lang: 'Język', theme: 'Jasny / ciemny', themeDark: 'Włącz ciemny motyw', skip: 'Przejdź do realizacji' },
   hero: {
     eye: 'Projektant stron · pracuję z firmami w całej Europie',
     h1: 'Strony dla ludzi, którzy pracują *rękami.*',
-    sub: 'Bramy, kuchnie, dachy, remonty, warsztaty, myjnie ciężarówek. Znajduję małe firmy rzemieślnicze, których nie widać w internecie, robię im za darmo projekt strony głównej, a <b>300&nbsp;€</b> (ok. 1&nbsp;300&nbsp;zł) płacą tylko wtedy, gdy im się spodoba.',
+    sub: 'Bramy, kuchnie, dachy, remonty, warsztaty, myjnie ciężarówek. Znajduję małe firmy rzemieślnicze, których nie widać w internecie, robię im za darmo projekt strony głównej, a od <b>300&nbsp;€</b> (ok. 1&nbsp;300&nbsp;zł) płacą tylko wtedy, gdy im się spodoba.',
     readIn: 'Wersje językowe',
     cta1: 'Chcę darmowy projekt',
     cta2: 'Wszystkie {n} stron →',
@@ -74,7 +74,7 @@ module.exports = {
   },
   price: {
     eye: 'Cena',
-    h2: '*300 €* jednorazowo. To cały cennik.',
+    h2: '*Od 300 €* jednorazowo. Bez abonamentu.',
     lead: 'Bez subskrypcji, bez abonamentu, bez niespodzianek na fakturze. Domena jest Państwa, kod jest Państwa, hosting może być darmowy. <b>Płacą Państwo dopiero wtedy, gdy zobaczą swoją stronę główną i powiedzą „tak”.</b> 300 € to ok. 1&nbsp;300&nbsp;zł.',
     incl: ['Projekt strony głównej przed jakąkolwiek płatnością', 'Cała strona do 5 podstron', 'Szybka, projektowana przede wszystkim na telefon', 'W Państwa języku', 'Wszystkie pliki i kod źródłowy', 'Miesiąc darmowych poprawek', 'Pomoc z domeną i hostingiem', 'E-mail, WhatsApp, Viber, Telegram'],
     cta: 'Chcę darmowy projekt',

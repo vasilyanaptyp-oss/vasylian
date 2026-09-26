@@ -1,15 +1,15 @@
 module.exports = {
   meta: {
-    title: 'Artur Vasilyan (Vasylian) — kodulehed neile, kes töötavad oma kätega',
-    desc: 'Artur Vasilyan (ka Vasylian) — veebidisainer ja arendaja Kiievist. Teen väikestele töökodadele üle Euroopa tasuta avalehe kavandi; 300 € maksate ainult siis, kui tulemus meeldib. {sites} kodulehte {countries} riigis, teie keeles.',
-    og: 'Kõigepealt tasuta avalehe kavand. 300 € ühe korra, ainult kui meeldib. Teie keeles.',
+    title: 'Kodulehe tegemine väikefirmale — alates 300 € | Artur Vasilyan',
+    desc: 'Tasuta avalehe kavand ehitus-, katuse- ja autoteenindusfirmadele. Koduleht alates 300 € ühe korra, ilma kuutasuta — ainult siis, kui meeldib.',
+    og: 'Kõigepealt tasuta avalehe kavand. Alates 300 € ühe korra, ainult kui meeldib. Teie keeles.',
     offer: 'Kõigepealt tasuta avalehe kavand; terve koduleht (kuni 5 lehte) 300 € eest ühe korra — ainult kui klient ütleb „jah“.'
   },
   nav: { label: 'Peamenüü', home: 'avaleht', work: 'Tööd', clients: 'Kliendid', process: 'Kuidas see käib', price: 'Hind', faq: 'Küsimused', cta: 'Tasuta kavand', lang: 'Keel', theme: 'Hele / tume', themeDark: 'Lülita tume teema sisse', skip: 'Mine tööde juurde' },
   hero: {
     eye: 'Veebidisainer ja arendaja · töötan ettevõtetega üle Euroopa',
     h1: 'Kodulehed neile, kes töötavad *oma kätega.*',
-    sub: 'Väravad, köögid, katused, remont, autotöökojad, veokipesulad. Otsin väikeseid töökodasid, mida internetist on raske leida, teen neile tasuta avalehe kavandi — ja <b>300&nbsp;€</b> maksate ainult siis, kui tulemus teile meeldib.',
+    sub: 'Väravad, köögid, katused, remont, autotöökojad, veokipesulad. Otsin väikeseid töökodasid, mida internetist on raske leida, teen neile tasuta avalehe kavandi — ja alates <b>300&nbsp;€</b> maksate ainult siis, kui tulemus teile meeldib.',
     readIn: 'Loe',
     cta1: 'Saa tasuta kavand',
     cta2: 'Kõik {n} kodulehte →',
@@ -74,7 +74,7 @@ module.exports = {
   },
   price: {
     eye: 'Hind',
-    h2: '*300 €* ühe korra. See on kogu hinnakiri.',
+    h2: '*Alates 300 €* ühe korra. Ilma kuutasuta.',
     lead: 'Ei abonementi, ei kuutasu, ei üllatavaid ridu arvel. Domeen on teie, kood on teie, majutus võib olla tasuta. <b>Maksate alles siis, kui olete oma avalehte näinud ja öelnud „jah“.</b>',
     incl: ['Avalehe kavand enne igasugust makset', 'Terve koduleht kuni 5 lehega', 'Eelkõige telefonile, kiire', 'Teie keeles', 'Kõik failid ja lähtekood', 'Kuu aega tasuta parandusi', 'Abi domeeni ja majutusega', 'E-post, WhatsApp, Viber, Telegram'],
     cta: 'Tahan tasuta kavandit',

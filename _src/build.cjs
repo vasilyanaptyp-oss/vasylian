@@ -7,7 +7,7 @@
 const fs = require('fs'), path = require('path');
 const ROOT = path.join(__dirname, '..');
 const SITE = 'https://vasylian.com/';
-const MAIL = 'vasilyanaptyp@gmail.com';
+const MAIL = 'arthur@vasylian.com';
 
 const LANGS = [
   { code: 'en', dir: '',    hl: 'en', og: 'en_GB', name: 'English',    short: 'EN', home: null },

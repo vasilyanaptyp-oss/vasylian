@@ -2,16 +2,16 @@
    *word* marks the accent (italic, orange). {n}, {sites}, {countries} … are filled by build.cjs. */
 module.exports = {
   meta: {
-    title: 'Artur Vasilyan (Vasylian) — websites for people who work with their hands',
-    desc: 'Artur Vasilyan (also spelled Vasylian), web designer and developer in Kyiv. I build a free homepage concept for small craft businesses across Europe; you pay a flat 300 € only if you like it. {sites} sites in {countries} countries, written in your language.',
-    og: 'A free homepage concept first. 300 € once, only if you like it. Written in your language.',
+    title: 'Websites for craft businesses — from 300 € | Artur Vasilyan',
+    desc: 'Free homepage concept for builders, roofers and car workshops in Latvia, Lithuania and Estonia. The full site from 300 € once, only if you like it.',
+    og: 'A free homepage concept first. From 300 € once, only if you like it. Written in your language.',
     offer: 'A free homepage concept first; the full site (up to 5 pages) for 300 € once, only if the client says yes.'
   },
   nav: { label: 'Main', home: 'home', work: 'Work', clients: 'Clients', process: 'How it works', price: 'Price', faq: 'FAQ', cta: 'Free concept', lang: 'Language', theme: 'Light / dark', themeDark: 'Switch to dark theme', skip: 'Skip to work' },
   hero: {
     eye: 'Web designer & developer · working across Europe',
     h1: 'Websites for people who work with *their hands.*',
-    sub: 'Gates, kitchens, roofs, renovations, car workshops, truck washes. I find small craft businesses that are hard to find online, build them a free homepage concept — and you pay a flat <b>300&nbsp;€</b> only if you like the result.',
+    sub: 'Gates, kitchens, roofs, renovations, car workshops, truck washes. I find small craft businesses that are hard to find online, build them a free homepage concept — and you pay from <b>300&nbsp;€</b>, once, only if you like the result.',
     readIn: 'Read this in',
     cta1: 'Get a free concept',
     cta2: 'See all {n} sites →',
@@ -76,7 +76,7 @@ module.exports = {
   },
   price: {
     eye: 'Price',
-    h2: '*300 €* once. That is the whole price list.',
+    h2: '*From 300 €* once. No monthly fees.',
     lead: 'No subscriptions, no retainer, no surprise line items. The domain is yours, the code is yours, the hosting can be free. <b>You pay only after you have seen your homepage and said yes.</b>',
     incl: ['Homepage concept before any payment', 'Full site, up to 5 pages', 'Mobile-first and fast', 'Written in your language', 'All files and source code', 'A month of free edits', 'Help with domain and hosting', 'Email, WhatsApp, Viber, Telegram'],
     cta: 'Get my free concept',

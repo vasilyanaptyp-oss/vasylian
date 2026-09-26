@@ -1,15 +1,15 @@
 module.exports = {
   meta: {
-    title: 'Artur Vasilyan (Vasylian) — mājaslapas tiem, kas strādā ar rokām',
-    desc: 'Artur Vasilyan (arī Vasylian) — tīmekļa dizainers un izstrādātājs no Kijivas. Maziem amatnieku uzņēmumiem visā Eiropā bez maksas izveidoju sākumlapas konceptu; 300 € jāmaksā tikai tad, ja rezultāts patīk. {sites} mājaslapas {countries} valstīs, jūsu valodā.',
-    og: 'Vispirms — bezmaksas sākumlapas koncepts. 300 € vienreiz, tikai ja patīk. Jūsu valodā.',
+    title: 'Mājaslapas izveide mazām firmām — no 300 € | Artur Vasilyan',
+    desc: 'Bezmaksas sākumlapas koncepts būvniekiem, jumiķiem un autoservisiem. Mājaslapa no 300 € vienreiz, bez ikmēneša maksas — tikai tad, ja patīk.',
+    og: 'Vispirms — bezmaksas sākumlapas koncepts. No 300 € vienreiz, tikai ja patīk. Jūsu valodā.',
     offer: 'Vispirms bezmaksas sākumlapas koncepts; pilna mājaslapa (līdz 5 lapām) par 300 € vienreiz — tikai ja klients saka „jā”.'
   },
   nav: { label: 'Galvenā izvēlne', home: 'sākums', work: 'Darbi', clients: 'Klienti', process: 'Kā tas notiek', price: 'Cena', faq: 'Jautājumi', cta: 'Bezmaksas koncepts', lang: 'Valoda', theme: 'Gaišs / tumšs', themeDark: 'Ieslēgt tumšo režīmu', skip: 'Pāriet uz darbiem' },
   hero: {
     eye: 'Tīmekļa dizainers un izstrādātājs · strādāju ar uzņēmumiem visā Eiropā',
     h1: 'Mājaslapas tiem, kas strādā *ar rokām.*',
-    sub: 'Vārti, virtuves, jumti, remonti, autoservisi, kravas auto mazgātavas. Meklēju mazus amatnieku uzņēmumus, kurus internetā grūti atrast, bez maksas izveidoju sākumlapas konceptu — un <b>300&nbsp;€</b> jāmaksā tikai tad, ja rezultāts jums patīk.',
+    sub: 'Vārti, virtuves, jumti, remonti, autoservisi, kravas auto mazgātavas. Meklēju mazus amatnieku uzņēmumus, kurus internetā grūti atrast, bez maksas izveidoju sākumlapas konceptu — un no <b>300&nbsp;€</b> jāmaksā tikai tad, ja rezultāts jums patīk.',
     readIn: 'Lasīt',
     cta1: 'Saņemt bezmaksas konceptu',
     cta2: 'Visas {n} mājaslapas →',
@@ -74,7 +74,7 @@ module.exports = {
   },
   price: {
     eye: 'Cena',
-    h2: '*300 €* vienreiz. Tas ir viss cenrādis.',
+    h2: '*No 300 €* vienreiz. Bez ikmēneša maksas.',
     lead: 'Bez abonementiem, bez ikmēneša maksas, bez negaidītām pozīcijām rēķinā. Domēns ir jūsu, kods ir jūsu, hostings var būt bez maksas. <b>Maksājat tikai tad, kad esat redzējuši savu sākumlapu un pateikuši „jā”.</b>',
     incl: ['Sākumlapas koncepts pirms jebkāda maksājuma', 'Pilna mājaslapa līdz 5 lapām', 'Veidota telefonam, ātra', 'Jūsu valodā', 'Visi faili un pirmkods', 'Mēnesis bezmaksas labojumu', 'Palīdzība domēna un hostinga jautājumos', 'E-pasts, WhatsApp, Viber, Telegram'],
     cta: 'Gribu bezmaksas konceptu',

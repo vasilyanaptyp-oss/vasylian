@@ -1,15 +1,15 @@
 module.exports = {
   meta: {
-    title: 'Artur Vasilyan (Vasylian) — Websites für Menschen, die mit ihren Händen arbeiten',
-    desc: 'Artur Vasilyan (auch Vasylian), Webdesigner und Entwickler in Kyjiw. Für kleine Handwerksbetriebe in ganz Europa baue ich kostenlos ein Startseiten-Konzept; 300 € zahlen Sie nur, wenn Ihnen das Ergebnis gefällt. {sites} Websites in {countries} Ländern, in Ihrer Sprache.',
-    og: 'Erst ein kostenloses Startseiten-Konzept. 300 € einmalig, nur wenn es gefällt. In Ihrer Sprache.',
+    title: 'Websites für Handwerksbetriebe — ab 300 € | Artur Vasilyan',
+    desc: 'Kostenloses Startseiten-Konzept für Handwerksbetriebe. Die fertige Website ab 300 € einmalig — Sie zahlen nur, wenn sie Ihnen gefällt.',
+    og: 'Erst ein kostenloses Startseiten-Konzept. Ab 300 € einmalig, nur wenn es gefällt. In Ihrer Sprache.',
     offer: 'Erst ein kostenloses Startseiten-Konzept; die komplette Website (bis 5 Seiten) für einmalig 300 € — nur wenn der Kunde Ja sagt.'
   },
   nav: { label: 'Hauptmenü', home: 'Startseite', work: 'Arbeiten', clients: 'Kunden', process: 'Ablauf', price: 'Preis', faq: 'Fragen', cta: 'Gratis-Konzept', lang: 'Sprache', theme: 'Hell / dunkel', themeDark: 'Dunkles Design einschalten', skip: 'Zu den Arbeiten' },
   hero: {
     eye: 'Webdesigner & Entwickler · für Betriebe in ganz Europa',
     h1: 'Websites für Menschen, die mit *ihren Händen* arbeiten.',
-    sub: 'Tore, Küchen, Dächer, Sanierungen, Werkstätten, Lkw-Waschanlagen. Ich finde kleine Handwerksbetriebe, die online kaum zu finden sind, baue ihnen kostenlos ein Startseiten-Konzept — und Sie zahlen pauschal <b>300&nbsp;€</b>, aber nur, wenn Ihnen das Ergebnis gefällt.',
+    sub: 'Tore, Küchen, Dächer, Sanierungen, Werkstätten, Lkw-Waschanlagen. Ich finde kleine Handwerksbetriebe, die online kaum zu finden sind, baue ihnen kostenlos ein Startseiten-Konzept — und Sie zahlen ab <b>300&nbsp;€</b> einmalig, aber nur, wenn Ihnen das Ergebnis gefällt.',
     readIn: 'Lesen auf',
     cta1: 'Kostenloses Konzept anfragen',
     cta2: 'Alle {n} Websites →',
@@ -74,7 +74,7 @@ module.exports = {
   },
   price: {
     eye: 'Preis',
-    h2: '*300 €* einmalig. Das ist die ganze Preisliste.',
+    h2: '*Ab 300 €* einmalig. Keine Monatsgebühr.',
     lead: 'Keine Abos, keine Pauschalen pro Monat, keine Überraschungen auf der Rechnung. Die Domain gehört Ihnen, der Code gehört Ihnen, das Hosting kann kostenlos sein. <b>Sie zahlen erst, wenn Sie Ihre Startseite gesehen und Ja gesagt haben.</b>',
     incl: ['Startseiten-Konzept vor jeder Zahlung', 'Komplette Website, bis 5 Seiten', 'Fürs Handy gebaut, schnell', 'In Ihrer Sprache', 'Alle Dateien und der Quellcode', 'Ein Monat kostenlose Änderungen', 'Hilfe bei Domain und Hosting', 'E-Mail, WhatsApp, Viber, Telegram'],
     cta: 'Kostenloses Konzept anfragen',
