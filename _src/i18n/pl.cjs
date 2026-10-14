@@ -1,6 +1,6 @@
 module.exports = {
   meta: {
-    title: 'Strony dla firm rzemieślniczych — od 300 € | Artur Vasilyan',
+    title: 'Strony dla firm rzemieślniczych — od 300 € | Artur Vasilyan (Vasylian)',
     desc: 'Darmowy projekt strony głównej dla firm budowlanych, dekarskich i warsztatów. Strona od 300 € jednorazowo — płacą Państwo tylko, jeśli się spodoba.',
     og: 'Najpierw darmowy projekt strony głównej. Od 300 € jednorazowo, tylko jeśli się spodoba. W Państwa języku.',
     offer: 'Najpierw darmowy projekt strony głównej; cała strona (do 5 podstron) za 300 € jednorazowo — tylko jeśli klient powie „tak”.'

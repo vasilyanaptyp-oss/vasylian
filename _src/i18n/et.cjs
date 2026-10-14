@@ -1,6 +1,6 @@
 module.exports = {
   meta: {
-    title: 'Kodulehe tegemine väikefirmale — alates 300 € | Artur Vasilyan',
+    title: 'Kodulehe tegemine väikefirmale — alates 300 € | Artur Vasilyan (Vasylian)',
     desc: 'Tasuta avalehe kavand ehitus-, katuse- ja autoteenindusfirmadele. Koduleht alates 300 € ühe korra, ilma kuutasuta — ainult siis, kui meeldib.',
     og: 'Kõigepealt tasuta avalehe kavand. Alates 300 € ühe korra, ainult kui meeldib. Teie keeles.',
     offer: 'Kõigepealt tasuta avalehe kavand; terve koduleht (kuni 5 lehte) 300 € eest ühe korra — ainult kui klient ütleb „jah“.'

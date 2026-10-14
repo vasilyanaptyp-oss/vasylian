@@ -2,7 +2,7 @@
    *word* marks the accent (italic, orange). {n}, {sites}, {countries} … are filled by build.cjs. */
 module.exports = {
   meta: {
-    title: 'Websites for craft businesses — from 300 € | Artur Vasilyan',
+    title: 'Websites for craft businesses — from 300 € | Artur Vasilyan (Vasylian)',
     desc: 'Free homepage concept for builders, roofers and car workshops in Latvia, Lithuania and Estonia. The full site from 300 € once, only if you like it.',
     og: 'A free homepage concept first. From 300 € once, only if you like it. Written in your language.',
     offer: 'A free homepage concept first; the full site (up to 5 pages) for 300 € once, only if the client says yes.'

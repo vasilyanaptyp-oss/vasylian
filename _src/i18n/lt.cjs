@@ -1,6 +1,6 @@
 module.exports = {
   meta: {
-    title: 'Svetainių kūrimas mažoms įmonėms — nuo 300 € | Artur Vasilyan',
+    title: 'Svetainių kūrimas mažoms įmonėms — nuo 300 € | Artur Vasilyan (Vasylian)',
     desc: 'Nemokama pagrindinio puslapio koncepcija statybų, stogų ir autoservisų įmonėms. Svetainė nuo 300 € vieną kartą, be mėnesinio mokesčio.',
     og: 'Pirmiausia — nemokama pagrindinio puslapio koncepcija. Nuo 300 € vieną kartą, tik jei patiks. Jūsų kalba.',
     offer: 'Pirmiausia nemokama pagrindinio puslapio koncepcija; visa svetainė (iki 5 puslapių) už 300 € vieną kartą — tik jei klientas sako „taip“.'

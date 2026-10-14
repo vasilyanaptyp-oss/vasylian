@@ -1,6 +1,6 @@
 module.exports = {
   meta: {
-    title: 'Websites für Handwerksbetriebe — ab 300 € | Artur Vasilyan',
+    title: 'Websites für Handwerksbetriebe — ab 300 € | Artur Vasilyan (Vasylian)',
     desc: 'Kostenloses Startseiten-Konzept für Handwerksbetriebe. Die fertige Website ab 300 € einmalig — Sie zahlen nur, wenn sie Ihnen gefällt.',
     og: 'Erst ein kostenloses Startseiten-Konzept. Ab 300 € einmalig, nur wenn es gefällt. In Ihrer Sprache.',
     offer: 'Erst ein kostenloses Startseiten-Konzept; die komplette Website (bis 5 Seiten) für einmalig 300 € — nur wenn der Kunde Ja sagt.'

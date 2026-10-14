@@ -1,6 +1,6 @@
 module.exports = {
   meta: {
-    title: 'Mājaslapas izveide mazām firmām — no 300 € | Artur Vasilyan',
+    title: 'Mājaslapas izveide mazām firmām — no 300 € | Artur Vasilyan (Vasylian)',
     desc: 'Bezmaksas sākumlapas koncepts būvniekiem, jumiķiem un autoservisiem. Mājaslapa no 300 € vienreiz, bez ikmēneša maksas — tikai tad, ja patīk.',
     og: 'Vispirms — bezmaksas sākumlapas koncepts. No 300 € vienreiz, tikai ja patīk. Jūsu valodā.',
     offer: 'Vispirms bezmaksas sākumlapas koncepts; pilna mājaslapa (līdz 5 lapām) par 300 € vienreiz — tikai ja klients saka „jā”.'
