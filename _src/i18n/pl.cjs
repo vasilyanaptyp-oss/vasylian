@@ -1,9 +1,9 @@
 module.exports = {
   meta: {
-    title: 'Strony dla firm rzemieślniczych — od 300 € | Artur Vasilyan (Vasylian)',
-    desc: 'Darmowy projekt strony głównej dla firm budowlanych, dekarskich i warsztatów. Strona od 300 € jednorazowo — płacą Państwo tylko, jeśli się spodoba.',
+    title: 'Strony dla firm rzemieślniczych, od 300 € | Artur Vasilyan (Vasylian)',
+    desc: 'Darmowy projekt strony głównej dla firm budowlanych, dekarskich i warsztatów. Strona od 300 € jednorazowo. Płacą Państwo tylko, jeśli się spodoba.',
     og: 'Najpierw darmowy projekt strony głównej. Od 300 € jednorazowo, tylko jeśli się spodoba. W Państwa języku.',
-    offer: 'Najpierw darmowy projekt strony głównej; cała strona (do 5 podstron) za 300 € jednorazowo — tylko jeśli klient powie „tak”.'
+    offer: 'Najpierw darmowy projekt strony głównej; cała strona (do 5 podstron) za 300 € jednorazowo, tylko jeśli klient powie „tak”.'
   },
   nav: { label: 'Menu główne', home: 'strona główna', work: 'Realizacje', clients: 'Klienci', process: 'Jak to działa', price: 'Cena', faq: 'Pytania', cta: 'Darmowy projekt', lang: 'Język', theme: 'Jasny / ciemny', themeDark: 'Włącz ciemny motyw', skip: 'Przejdź do realizacji' },
   hero: {
@@ -21,14 +21,14 @@ module.exports = {
   },
   offer: {
     label: 'Oferta w trzech zdaniach',
-    s1: 'Wysyłam darmowy projekt strony głównej — jako działający link.',
-    s2: 'Podoba się → <b>300&nbsp;€</b> jednorazowo. Cała strona do 5 podstron — w Państwa domenie. Wszystkie pliki są Państwa.',
+    s1: 'Wysyłam darmowy projekt strony głównej jako działający link.',
+    s2: 'Podoba się → <b>300&nbsp;€</b> jednorazowo. Cała strona do 5 podstron w Państwa domenie. Wszystkie pliki są Państwa.',
     s3: 'Nie podoba się → nic Państwo nie płacą. Na prośbę usuwam projekt.'
   },
   clients: {
     eye: 'Klienci',
     h2: 'Zaczęło się od darmowego projektu. *Teraz to ich strona.*',
-    lead: 'Te firmy powiedziały „tak”. Każda dostała całą stronę we własnej domenie, we własnym języku — razem ze wszystkimi plikami.',
+    lead: 'Te firmy powiedziały „tak”. Każda dostała całą stronę we własnej domenie i we własnym języku, razem ze wszystkimi plikami.',
     live: 'Działa',
     soon: 'Wkrótce',
     visit: 'Otwórz {domain} ↗',
@@ -38,7 +38,7 @@ module.exports = {
   work: {
     eye: 'Realizacje',
     h2: '{sites} stron głównych dla prawdziwych firm w *{countries} krajach.*',
-    lead: 'Większość to projekty zrobione bez zamówienia, z publicznych zdjęć i tekstów każdej firmy — jako darmowy pierwszy krok. Można filtrować według kraju lub branży i kliknąć kartę, żeby zobaczyć z bliska.',
+    lead: 'Większość to projekty zrobione bez zamówienia, z publicznych zdjęć i tekstów każdej firmy, jako darmowy pierwszy krok. Można filtrować według kraju lub branży i kliknąć kartę, żeby zobaczyć z bliska.',
     byCountry: 'Kraj',
     byTrade: 'Branża',
     all: 'Wszystkie',
@@ -54,21 +54,21 @@ module.exports = {
   },
   ba: {
     eye: 'Przed / po',
-    h2: 'Jak ich strona wyglądała na telefonie — i *co ode mnie dostali w odpowiedzi.*',
+    h2: 'Jak ich strona wyglądała na telefonie i *co ode mnie dostali w odpowiedzi.*',
     lead: 'Proszę przesunąć suwak. Po lewej strona, którą mieli, po prawej projekt, który dostali w dzień lub dwa.',
     before: 'Przed', after: 'Po',
     aria: 'Porównaj starą i nową stronę {name}',
-    altNew: '{name} — nowy projekt na telefonie',
-    altOld: '{name} — stara strona na telefonie'
+    altNew: '{name}: nowy projekt na telefonie',
+    altOld: '{name}: stara strona na telefonie'
   },
   proc: {
     eye: 'Jak to działa',
     h2: 'Nic Państwo nie ryzykują, *dopóki nie zobaczą strony.*',
     lead: 'Cztery kroki, zwykle w ciągu tygodnia. Rozmowy telefoniczne nie są potrzebne: wszystko na piśmie i w Państwa języku.',
     steps: [
-      ['Znajduję Państwa firmę', 'Zwykle w katalogu firm: jest telefon i profil na Facebooku, ale nie ma strony — albo jest strona z 2014 roku, która rozsypuje się na telefonie.', 'Dzień 0'],
-      ['Piszę — w Państwa języku', 'Jeden krótki e-mail o jednej konkretnej rzeczy: zdjęciach, których nikt nie widzi, numerze, którego nie da się kliknąć, stronie, która nie otwiera się przez https.', 'Dzień 0'],
-      ['Dostają Państwo darmowy projekt', 'Z Państwa własnych zdjęć, usług i kontaktów. Jako działający link — można go otworzyć na telefonie i pokazać rodzinie.', 'Dzień 1–2'],
+      ['Znajduję Państwa firmę', 'Zwykle w katalogu firm: jest telefon i profil na Facebooku, ale nie ma strony albo jest strona z 2014 roku, która rozsypuje się na telefonie.', 'Dzień 0'],
+      ['Piszę w Państwa języku', 'Jeden krótki e-mail o jednej konkretnej rzeczy: zdjęciach, których nikt nie widzi, numerze, którego nie da się kliknąć, stronie, która nie otwiera się przez https.', 'Dzień 0'],
+      ['Dostają Państwo darmowy projekt', 'Z Państwa własnych zdjęć, usług i kontaktów. Jako działający link, który można otworzyć na telefonie i pokazać rodzinie.', 'Dzień 1-2'],
       ['Mówią Państwo „tak” albo „nie”', '„Tak” to 300 € za całą stronę, wszystkie pliki i kod oraz miesiąc darmowych poprawek. „Nie” oznacza, że nic Państwo nie płacą, a na prośbę usunę projekt.', 'W ciągu tygodnia']
     ]
   },
@@ -81,21 +81,21 @@ module.exports = {
     rcptTitle: 'Paragon',
     rows: [['Projekt strony głównej', '0 €'], ['Cała strona do 5 podstron', '300 €'], ['Poprawki w pierwszym miesiącu', '0 €'], ['Abonament', '0 €']],
     total: 'Razem, jednorazowo',
-    note: 'Płatność jednorazowa — po Państwa „tak”.',
+    note: 'Płatność jednorazowa, po Państwa „tak”.',
     stamp: 'Płatne, tylko jeśli się spodoba'
   },
   faq: {
     eye: 'Pytania',
     h2: 'O co właściciele *pytają najpierw.*',
     items: [
-      ['Dlaczego projekt jest darmowy?', 'Bo pokazać jest szybciej niż wytłumaczyć. Robię projekt tylko wtedy, gdy już widzę, czego brakuje Państwa stronie — a kto zobaczy swoją firmę na telefonie, zwykle decyduje w minutę.'],
+      ['Dlaczego projekt jest darmowy?', 'Bo pokazać jest szybciej niż wytłumaczyć. Robię projekt tylko wtedy, gdy już widzę, czego brakuje Państwa stronie, a kto zobaczy swoją firmę na telefonie, zwykle decyduje w minutę.'],
       ['Co muszę przygotować?', 'Nic. Zdjęcia, usługi i kontakty biorę z obecnej strony, profilu na Facebooku albo katalogu. Jeśli mają Państwo lepsze zdjęcia, można je przesłać później.'],
       ['Co dokładnie dostaję za 300 €?', 'Całą stronę do 5 podstron w Państwa domenie: projektowaną przede wszystkim na telefon, z Państwa tekstami i zdjęciami, wszystkie pliki i kod źródłowy oraz miesiąc darmowych poprawek po starcie.'],
       ['Czy są opłaty miesięczne?', 'Nie. 300 € jednorazowo. Domenę odnawia się u swojego rejestratora jak zwykle, a hosting takiej strony może być darmowy.'],
-      ['Ile to trwa?', 'Projekt — dzień lub dwa. Cała strona po Państwa „tak” — zwykle w ciągu tygodnia.'],
-      ['Czy musimy rozmawiać przez telefon?', 'Nie. Wszystko można załatwić na piśmie, w Państwa języku: e-mailem, przez WhatsApp, Viber albo Telegram. Jeśli wolą Państwo rozmowę — też można.'],
+      ['Ile to trwa?', 'Projekt jest gotowy w dzień lub dwa. Cała strona po Państwa „tak” jest zwykle gotowa w ciągu tygodnia.'],
+      ['Czy musimy rozmawiać przez telefon?', 'Nie. Wszystko można załatwić na piśmie, w Państwa języku: e-mailem, przez WhatsApp, Viber albo Telegram. Jeśli wolą Państwo rozmowę, też można.'],
       ['A jeśli powiem „nie”?', 'Wtedy nic Państwo nie płacą. Projekt jest oznaczony jako nieoficjalny, a na prośbę go usunę.'],
-      ['Ukraina — czy to nie ryzyko?', 'Strona i pliki są na serwerach poza Ukrainą, więc nic nie zależy od tego, czy u mnie jest prąd. A odpowiadam w ciągu doby.']
+      ['Pracuje Pan z Ukrainy. Czy to nie ryzyko?', 'Strona i pliki są na serwerach poza Ukrainą, więc nic nie zależy od tego, czy u mnie jest prąd. A odpowiadam w ciągu doby.']
     ]
   },
   about: {
@@ -148,8 +148,8 @@ module.exports = {
     hiText: 'To portfolio, z którego pochodzi Państwa projekt.',
     hiOpen: 'Otwórz swój projekt ↗',
     you: 'Państwa projekt',
-    clockOn: 'W Kijowie jest {t} — pewnie odpowiem od razu.',
-    clockOff: 'W Kijowie jest {t} — odpowiem rano.',
+    clockOn: 'W Kijowie jest {t}, więc pewnie odpowiem od razu.',
+    clockOff: 'W Kijowie jest {t}, więc odpowiem rano.',
     copied: 'Skopiowano: {mail}',
     answer: 'Odpowiadam w ciągu doby.',
     mailSubject: 'Darmowy projekt: {biz}',

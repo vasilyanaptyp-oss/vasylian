@@ -1,15 +1,15 @@
 module.exports = {
   meta: {
-    title: 'Kodulehe tegemine väikefirmale — alates 300 € | Artur Vasilyan (Vasylian)',
-    desc: 'Tasuta avalehe kavand ehitus-, katuse- ja autoteenindusfirmadele. Koduleht alates 300 € ühe korra, ilma kuutasuta — ainult siis, kui meeldib.',
+    title: 'Kodulehe tegemine väikefirmale, alates 300 € | Artur Vasilyan (Vasylian)',
+    desc: 'Tasuta avalehe kavand ehitus-, katuse- ja autoteenindusfirmadele. Koduleht alates 300 € ühe korra, ilma kuutasuta. Maksate ainult siis, kui meeldib.',
     og: 'Kõigepealt tasuta avalehe kavand. Alates 300 € ühe korra, ainult kui meeldib. Teie keeles.',
-    offer: 'Kõigepealt tasuta avalehe kavand; terve koduleht (kuni 5 lehte) 300 € eest ühe korra — ainult kui klient ütleb „jah“.'
+    offer: 'Kõigepealt tasuta avalehe kavand; terve koduleht (kuni 5 lehte) 300 € eest ühe korra, ainult kui klient ütleb „jah“.'
   },
   nav: { label: 'Peamenüü', home: 'avaleht', work: 'Tööd', clients: 'Kliendid', process: 'Kuidas see käib', price: 'Hind', faq: 'Küsimused', cta: 'Tasuta kavand', lang: 'Keel', theme: 'Hele / tume', themeDark: 'Lülita tume teema sisse', skip: 'Mine tööde juurde' },
   hero: {
     eye: 'Veebidisainer ja arendaja · töötan ettevõtetega üle Euroopa',
     h1: 'Kodulehed neile, kes töötavad *oma kätega.*',
-    sub: 'Väravad, köögid, katused, remont, autotöökojad, veokipesulad. Otsin väikeseid töökodasid, mida internetist on raske leida, teen neile tasuta avalehe kavandi — ja alates <b>300&nbsp;€</b> maksate ainult siis, kui tulemus teile meeldib.',
+    sub: 'Väravad, köögid, katused, remont, autotöökojad, veokipesulad. Otsin väikeseid töökodasid, mida internetist on raske leida, ja teen neile tasuta avalehe kavandi. Alates <b>300&nbsp;€</b> maksate ainult siis, kui tulemus teile meeldib.',
     readIn: 'Loe',
     cta1: 'Saa tasuta kavand',
     cta2: 'Kõik {n} projekti →',
@@ -21,14 +21,14 @@ module.exports = {
   },
   offer: {
     label: 'Pakkumine kolmes reas',
-    s1: 'Saadan teile tasuta avalehe kavandi — lingina, mille saate kohe avada.',
-    s2: 'Meeldib → <b>300&nbsp;€</b> ühe korra. Terve koduleht kuni 5 lehega — teie domeenil. Kõik failid on teie omad.',
+    s1: 'Saadan teile tasuta avalehe kavandi lingina, mille saate kohe avada.',
+    s2: 'Meeldib → <b>300&nbsp;€</b> ühe korra. Terve koduleht kuni 5 lehega teie domeenil. Kõik failid on teie omad.',
     s3: 'Ei meeldi → midagi ei pea maksma. Soovi korral eemaldan kavandi.'
   },
   clients: {
     eye: 'Kliendid',
     h2: 'Algas tasuta kavandist. *Nüüd on see nende koduleht.*',
-    lead: 'Need ettevõtted ütlesid „jah“. Igaüks sai terve kodulehe oma domeenil, oma keeles — ja kõik failid.',
+    lead: 'Need ettevõtted ütlesid „jah“. Igaüks sai terve kodulehe oma domeenil ja oma keeles, koos kõigi failidega.',
     live: 'Töötab',
     soon: 'Peagi',
     visit: 'Ava {domain} ↗',
@@ -54,21 +54,21 @@ module.exports = {
   },
   ba: {
     eye: 'Enne / pärast',
-    h2: 'Milline nägi nende leht telefonis välja — ja *mille ma vastu saatsin.*',
+    h2: 'Milline nägi nende leht telefonis välja ja *mille ma vastu saatsin.*',
     lead: 'Lohistage liugurit. Vasakul on leht, mis neil oli, paremal kavand, mille nad said päeva-kahega.',
     before: 'Enne', after: 'Pärast',
     aria: 'Võrdle ettevõtte {name} vana ja uut lehte',
-    altNew: '{name} — uus kavand telefonis',
-    altOld: '{name} — vana leht telefonis'
+    altNew: '{name}: uus kavand telefonis',
+    altOld: '{name}: vana leht telefonis'
   },
   proc: {
     eye: 'Kuidas see käib',
     h2: 'Te ei riski millegagi, *enne kui olete lehte näinud.*',
     lead: 'Neli sammu, tavaliselt ühe nädala jooksul. Helistada pole vaja: kõik käib kirjalikult ja teie keeles.',
     steps: [
-      ['Ma leian teid', 'Tavaliselt ettevõtete kataloogist: on telefon ja Facebooki leht, aga kodulehte pole — või on leht aastast 2014, mis telefonis laguneb.', 'Päev 0'],
-      ['Kirjutan — teie keeles', 'Üks lühike kiri ühe konkreetse asja kohta: fotod, mida keegi ei näe, number, millele ei saa vajutada, leht, mis ei avane https-iga.', 'Päev 0'],
-      ['Saate kavandi tasuta', 'Teie enda fotodest, teenustest ja kontaktidest. Lingina, mille saate telefonis avada ja perele näidata.', 'Päev 1–2'],
+      ['Ma leian teid', 'Tavaliselt ettevõtete kataloogist: on telefon ja Facebooki leht, aga kodulehte pole või siis on leht aastast 2014, mis telefonis laguneb.', 'Päev 0'],
+      ['Kirjutan teie keeles', 'Üks lühike kiri ühe konkreetse asja kohta: fotod, mida keegi ei näe, number, millele ei saa vajutada, leht, mis ei avane https-iga.', 'Päev 0'],
+      ['Saate kavandi tasuta', 'Teie enda fotodest, teenustest ja kontaktidest. Lingina, mille saate telefonis avada ja perele näidata.', 'Päev 1-2'],
       ['Ütlete „jah“ või „ei“', '„Jah“ tähendab 300 € terve kodulehe, kõigi failide ja koodi ning kuu aja tasuta paranduste eest. „Ei“ tähendab, et midagi ei pea maksma, ja soovi korral eemaldan kavandi.', 'Nädala jooksul']
     ]
   },
@@ -81,18 +81,18 @@ module.exports = {
     rcptTitle: 'Tšekk',
     rows: [['Avalehe kavand', '0 €'], ['Terve koduleht kuni 5 lehega', '300 €'], ['Parandused esimesel kuul', '0 €'], ['Kuutasu', '0 €']],
     total: 'Kokku, ühekordselt',
-    note: 'Ühekordne makse — pärast teie „jah“.',
+    note: 'Ühekordne makse pärast teie „jah“.',
     stamp: 'Maksate vaid siis, kui meeldib'
   },
   faq: {
     eye: 'Küsimused',
     h2: 'Mida omanikud *kõigepealt küsivad.*',
     items: [
-      ['Miks on kavand tasuta?', 'Sest näidata on kiirem kui seletada. Teen kavandi ainult siis, kui juba näen, mis teie lehel puudu on — ja kui omanik näeb oma ettevõtet telefonis, otsustab ta enamasti minutiga.'],
+      ['Miks on kavand tasuta?', 'Sest näidata on kiirem kui seletada. Teen kavandi ainult siis, kui juba näen, mis teie lehel puudu on. Kui omanik näeb oma ettevõtet telefonis, otsustab ta enamasti minutiga.'],
       ['Mida ma pean ette valmistama?', 'Mitte midagi. Fotod, teenused ja kontaktid võtan teie praeguselt kodulehelt, Facebooki lehelt või kataloogist. Kui teil on paremaid fotosid, saatke need hiljem.'],
       ['Mida ma täpselt 300 € eest saan?', 'Terve kodulehe kuni 5 lehega teie domeenil: tehtud eelkõige telefonile, teie tekstide ja fotodega, kõik failid ja lähtekoodi ning kuu aega tasuta parandusi pärast avamist.'],
       ['Kas on igakuiseid makseid?', 'Ei. 300 € ühe korra. Domeeni pikendate oma registripidaja juures nagu tavaliselt ja sellise lehe majutus võib olla tasuta.'],
-      ['Kui kaua see aega võtab?', 'Kavand — päev või kaks. Terve koduleht pärast teie „jah“ — tavaliselt nädala jooksul.'],
+      ['Kui kaua see aega võtab?', 'Kavand valmib päeva või kahega. Terve koduleht valmib pärast teie „jah“ tavaliselt nädala jooksul.'],
       ['Kas peame telefonis rääkima?', 'Ei. Kõik saab teha kirjalikult, teie keeles: e-posti, WhatsAppi, Viberi või Telegrami kaudu. Kui eelistate kõnet, sobib ka see.'],
       ['Mis siis, kui ütlen „ei“?', 'Siis te ei maksa midagi. Kavand on märgitud mitteametlikuks ja soovi korral eemaldan selle.'],
       ['Te olete Ukrainas. Kas see pole risk?', 'Teie leht ja failid asuvad serverites väljaspool Ukrainat, nii et miski ei sõltu minu elektrivõrgust. Ja vastan päeva jooksul.']
@@ -148,8 +148,8 @@ module.exports = {
     hiText: 'See on portfoolio, kust teie kavand pärineb.',
     hiOpen: 'Avage oma kavand ↗',
     you: 'Teie kavand',
-    clockOn: 'Kiievis on praegu {t} — tõenäoliselt olen kättesaadav.',
-    clockOff: 'Kiievis on praegu {t} — vastan hommikul.',
+    clockOn: 'Kiievis on praegu {t}, nii et olen tõenäoliselt kättesaadav.',
+    clockOff: 'Kiievis on praegu {t}, nii et vastan hommikul.',
     copied: 'Kopeeritud: {mail}',
     answer: 'Vastan päeva jooksul.',
     mailSubject: 'Tasuta kavand: {biz}',

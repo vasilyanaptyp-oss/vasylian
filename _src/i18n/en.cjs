@@ -2,7 +2,7 @@
    *word* marks the accent (italic, orange). {n}, {sites}, {countries} … are filled by build.cjs. */
 module.exports = {
   meta: {
-    title: 'Websites for craft businesses — from 300 € | Artur Vasilyan (Vasylian)',
+    title: 'Websites for craft businesses, from 300 € | Artur Vasilyan (Vasylian)',
     desc: 'Free homepage concept for builders, roofers and car workshops in Latvia, Lithuania and Estonia. The full site from 300 € once, only if you like it.',
     og: 'A free homepage concept first. From 300 € once, only if you like it. Written in your language.',
     offer: 'A free homepage concept first; the full site (up to 5 pages) for 300 € once, only if the client says yes.'
@@ -11,7 +11,7 @@ module.exports = {
   hero: {
     eye: 'Web designer & developer · working across Europe',
     h1: 'Websites for people who work with *their hands.*',
-    sub: 'Gates, kitchens, roofs, renovations, car workshops, truck washes. I find small craft businesses that are hard to find online, build them a free homepage concept — and you pay from <b>300&nbsp;€</b>, once, only if you like the result.',
+    sub: 'Gates, kitchens, roofs, renovations, car workshops, truck washes. I find small craft businesses that are hard to find online and build them a free homepage concept. You pay from <b>300&nbsp;€</b>, once, only if you like the result.',
     readIn: 'Read this in',
     cta1: 'Get a free concept',
     cta2: 'See all {n} projects →',
@@ -60,8 +60,8 @@ module.exports = {
     lead: 'Drag the handle. Left is the site they had, right is the concept they got within a day or two.',
     before: 'Before', after: 'After',
     aria: 'Compare the old and the new {name} page',
-    altNew: '{name} — new concept on a phone',
-    altOld: '{name} — the old site on a phone'
+    altNew: '{name}: new concept on a phone',
+    altOld: '{name}: the old site on a phone'
   },
   proc: {
     eye: 'How it works',
@@ -70,7 +70,7 @@ module.exports = {
     steps: [
       ['I find you', 'Usually in a business directory: a phone number and a Facebook page but no site, or a site from 2014 that breaks on a phone.', 'Day 0'],
       ['I write, in your language', 'One short email naming one concrete thing: photos nobody sees, a phone number you cannot tap, a homepage that does not open over https.', 'Day 0'],
-      ['You get a concept, free', 'Built from your own photos, services and contacts. On a live link, so you can open it on your phone and show your family.', 'Day 1–2'],
+      ['You get a concept, free', 'Built from your own photos, services and contacts. On a live link, so you can open it on your phone and show your family.', 'Day 1-2'],
       ['You say yes, or no', 'Yes means 300 € for the full site, all files and code, and a month of free edits. No means nothing to pay, and I take the concept down if you ask.', 'Within a week']
     ]
   },
@@ -150,8 +150,8 @@ module.exports = {
     hiText: 'This is the portfolio behind the concept I sent you.',
     hiOpen: 'Open your concept ↗',
     you: 'Your concept',
-    clockOn: 'It is {t} in Kyiv — I am probably online.',
-    clockOff: 'It is {t} in Kyiv — I will answer in the morning.',
+    clockOn: 'It is {t} in Kyiv, so I am probably online.',
+    clockOff: 'It is {t} in Kyiv, so I will answer in the morning.',
     copied: 'Copied: {mail}',
     answer: 'I answer within a day.',
     mailSubject: 'Free concept for {biz}',

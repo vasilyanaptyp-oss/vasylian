@@ -103,7 +103,7 @@ function page(L) {
   /* clients */
   const cases = W.filter(w => w.kind === 'live' || w.kind === 'client').map(w => `
       <article class="case" data-rv>
-        <div class="case__stage">${browser(w.domain, shotD(w.id, '(max-width: 899px) 92vw, 560px', true, `${w.name} — ${t.work.altDesktop}`))}<div class="phone case__phone">${shotM(w.id, true, `${w.name} — ${t.work.altPhone}`)}</div></div>
+        <div class="case__stage">${browser(w.domain, shotD(w.id, '(max-width: 899px) 92vw, 560px', true, `${w.name}: ${t.work.altDesktop}`))}<div class="phone case__phone">${shotM(w.id, true, `${w.name}: ${t.work.altPhone}`)}</div></div>
         <div class="case__body">
           <div class="case__top"><h3 class="case__name">${esc(w.name)}</h3><span class="pill${w.kind === 'client' ? ' pill--soon' : ''}">${esc(w.kind === 'live' ? t.clients.live : t.clients.soon)}</span></div>
           <p class="case__meta">${esc(loc(w))} · ${esc(pick(w.craft, code))}</p>
@@ -120,7 +120,7 @@ function page(L) {
   const cards = workList.map((w, i) => `
       <article class="card${i >= 12 ? ' is-extra' : ''}" data-id="${w.id}" data-cc="${w.cc}" data-trade="${w.trade}" data-kind="${w.kind}" data-rv>
         <span class="card__shots">
-          ${shotD(w.id, '(max-width: 640px) 92vw, (max-width: 1100px) 46vw, 390px', true, `${w.name} — ${t.work.altDesktop}`).replace('<img ', '<img class="card__d" ')}
+          ${shotD(w.id, '(max-width: 640px) 92vw, (max-width: 1100px) 46vw, 390px', true, `${w.name}: ${t.work.altDesktop}`).replace('<img ', '<img class="card__d" ')}
           ${shotM(w.id, true, '', 'card__m')}
           ${kindBadge(w)}
         </span>
@@ -180,7 +180,7 @@ function page(L) {
         sameAs: ['https://github.com/vasilyanaptyp-oss'], worksFor: { '@id': SITE + '#service' },
         address: { '@type': 'PostalAddress', addressLocality: 'Kyiv', addressCountry: 'UA' },
         knowsLanguage: ['uk', 'ru', 'en', 'lv', 'lt', 'et', 'pl', 'de', 'sv', 'fi', 'da', 'nl', 'fr'] },
-      { '@type': 'ProfessionalService', '@id': SITE + '#service', name: 'Vasylian', alternateName: 'Artur Vasilyan — websites for small businesses', url: SITE, email: 'mailto:' + MAIL,
+      { '@type': 'ProfessionalService', '@id': SITE + '#service', name: 'Vasylian', alternateName: 'Artur Vasilyan, websites for small businesses', url: SITE, email: 'mailto:' + MAIL,
         logo: SITE + 'assets/icon-512.png', image: SITE + 'assets/og/' + code + '.jpg',
         address: { '@type': 'PostalAddress', addressLocality: 'Kyiv', addressCountry: 'UA' },
         founder: { '@id': SITE + '#artur' }, areaServed: ['Latvia', 'Lithuania', 'Estonia', 'Poland', 'Ukraine', 'Austria', 'Sweden', 'Germany'].map(x => ({ '@type': 'Country', name: x })),
@@ -228,7 +228,7 @@ ${alternates}
 <a class="skip" href="#work">${esc(t.nav.skip)}</a>
 
 <header class="hdr" id="hdr">
-  <a class="brand" href="${P}${L.dir}#top" aria-label="Artur Vasilyan — ${esc(t.nav.home)}">Artur Vasilyan<span class="brand__dot" aria-hidden="true"></span></a>
+  <a class="brand" href="${P}${L.dir}#top" aria-label="Artur Vasilyan, ${esc(t.nav.home)}">Artur Vasilyan<span class="brand__dot" aria-hidden="true"></span></a>
   <nav class="nav" aria-label="${esc(t.nav.label)}">
     <a href="#work">${esc(t.nav.work)}</a>
     <a href="#clients">${esc(t.nav.clients)}</a>
@@ -389,7 +389,7 @@ ${t.faq.items.map((q, i) => `      <details data-rv${i === 0 ? ' open' : ''}><su
     <div class="about__facts">
       <div data-rv><b>${N.sites}</b><span>${esc(t.about.f1)}</span></div>
       <div data-rv><b>${N.langs}</b><span>${esc(t.about.f2)}</span></div>
-      <div data-rv><b>1–2</b><span>${esc(t.about.f3)}</span></div>
+      <div data-rv><b>1-2</b><span>${esc(t.about.f3)}</span></div>
       <div data-rv><b>0&nbsp;€</b><span>${esc(t.about.f4)}</span></div>
     </div>
   </div>
@@ -502,5 +502,5 @@ ${LANGS.map(A => `    <xhtml:link rel="alternate" hreflang="${A.hl}" href="${SIT
 </urlset>
 `);
 fs.writeFileSync(path.join(ROOT, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${SITE}sitemap.xml\n`);
-fs.writeFileSync(path.join(ROOT, '404.html'), `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Not found — Artur Vasilyan (Vasylian)</title><meta name="robots" content="noindex"><link rel="icon" href="/favicon.ico" sizes="48x48"><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png"><style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#f4f1ea;color:#141412;font:17px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;padding:24px;text-align:center}h1{font:600 clamp(2rem,6vw,3.5rem)/1.05 Georgia,serif;letter-spacing:-.02em;margin:0 0 .6rem}a{display:inline-block;margin-top:1.2rem;padding:.8rem 1.4rem;border-radius:999px;background:#141412;color:#f4f1ea;text-decoration:none;font-weight:600}@media (prefers-color-scheme:dark){body{background:#141412;color:#f4f1ea}a{background:#ff5a14;color:#141412}}</style></head><body><main><h1>This page is not here.</h1><p>The portfolio and all ${N.sites} sites are one click away.</p><a href="/">vasylian.com</a></main></body></html>\n`);
+fs.writeFileSync(path.join(ROOT, '404.html'), `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Not found | Artur Vasilyan (Vasylian)</title><meta name="robots" content="noindex"><link rel="icon" href="/favicon.ico" sizes="48x48"><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png"><style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#f4f1ea;color:#141412;font:17px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;padding:24px;text-align:center}h1{font:600 clamp(2rem,6vw,3.5rem)/1.05 Georgia,serif;letter-spacing:-.02em;margin:0 0 .6rem}a{display:inline-block;margin-top:1.2rem;padding:.8rem 1.4rem;border-radius:999px;background:#141412;color:#f4f1ea;text-decoration:none;font-weight:600}@media (prefers-color-scheme:dark){body{background:#141412;color:#f4f1ea}a{background:#ff5a14;color:#141412}}</style></head><body><main><h1>This page is not here.</h1><p>The portfolio and all ${N.sites} sites are one click away.</p><a href="/">vasylian.com</a></main></body></html>\n`);
 console.log('numbers', N);

@@ -1,15 +1,15 @@
 module.exports = {
   meta: {
-    title: 'Mājaslapas izveide mazām firmām — no 300 € | Artur Vasilyan (Vasylian)',
-    desc: 'Bezmaksas sākumlapas koncepts būvniekiem, jumiķiem un autoservisiem. Mājaslapa no 300 € vienreiz, bez ikmēneša maksas — tikai tad, ja patīk.',
-    og: 'Vispirms — bezmaksas sākumlapas koncepts. No 300 € vienreiz, tikai ja patīk. Jūsu valodā.',
-    offer: 'Vispirms bezmaksas sākumlapas koncepts; pilna mājaslapa (līdz 5 lapām) par 300 € vienreiz — tikai ja klients saka „jā”.'
+    title: 'Mājaslapas izveide mazām firmām, no 300 € | Artur Vasilyan (Vasylian)',
+    desc: 'Bezmaksas sākumlapas koncepts būvniekiem, jumiķiem un autoservisiem. Mājaslapa no 300 € vienreiz, bez ikmēneša maksas. Maksājat tikai tad, ja patīk.',
+    og: 'Vispirms bezmaksas sākumlapas koncepts. No 300 € vienreiz, tikai ja patīk. Jūsu valodā.',
+    offer: 'Vispirms bezmaksas sākumlapas koncepts; pilna mājaslapa (līdz 5 lapām) par 300 € vienreiz, tikai ja klients saka „jā”.'
   },
   nav: { label: 'Galvenā izvēlne', home: 'sākums', work: 'Darbi', clients: 'Klienti', process: 'Kā tas notiek', price: 'Cena', faq: 'Jautājumi', cta: 'Bezmaksas koncepts', lang: 'Valoda', theme: 'Gaišs / tumšs', themeDark: 'Ieslēgt tumšo režīmu', skip: 'Pāriet uz darbiem' },
   hero: {
     eye: 'Tīmekļa dizainers un izstrādātājs · strādāju ar uzņēmumiem visā Eiropā',
     h1: 'Mājaslapas tiem, kas strādā *ar rokām.*',
-    sub: 'Vārti, virtuves, jumti, remonti, autoservisi, kravas auto mazgātavas. Meklēju mazus amatnieku uzņēmumus, kurus internetā grūti atrast, bez maksas izveidoju sākumlapas konceptu — un no <b>300&nbsp;€</b> jāmaksā tikai tad, ja rezultāts jums patīk.',
+    sub: 'Vārti, virtuves, jumti, remonti, autoservisi, kravas auto mazgātavas. Meklēju mazus amatnieku uzņēmumus, kurus internetā grūti atrast, un bez maksas izveidoju sākumlapas konceptu. No <b>300&nbsp;€</b> jāmaksā tikai tad, ja rezultāts jums patīk.',
     readIn: 'Lasīt',
     cta1: 'Saņemt bezmaksas konceptu',
     cta2: 'Visi {n} projekti →',
@@ -21,14 +21,14 @@ module.exports = {
   },
   offer: {
     label: 'Piedāvājums trīs rindās',
-    s1: 'Nosūtu jums bezmaksas sākumlapas konceptu — saiti uz lapu, kas jau darbojas.',
-    s2: 'Patīk → <b>300&nbsp;€</b> vienreiz. Pilna mājaslapa līdz 5 lapām — uz jūsu domēna. Visi faili ir jūsu.',
+    s1: 'Nosūtu jums bezmaksas sākumlapas konceptu: saiti uz lapu, kas jau darbojas.',
+    s2: 'Patīk → <b>300&nbsp;€</b> vienreiz. Pilna mājaslapa līdz 5 lapām uz jūsu domēna. Visi faili ir jūsu.',
     s3: 'Nepatīk → nekas nav jāmaksā. Ja lūdzat, konceptu noņemu.'
   },
   clients: {
     eye: 'Klienti',
     h2: 'Sākās ar bezmaksas konceptu. *Tagad tā ir viņu mājaslapa.*',
-    lead: 'Šie uzņēmumi pateica „jā”. Katrs saņēma pilnu mājaslapu uz sava domēna, savā valodā — un visus failus.',
+    lead: 'Šie uzņēmumi pateica „jā”. Katrs saņēma pilnu mājaslapu uz sava domēna un savā valodā, kā arī visus failus.',
     live: 'Darbojas',
     soon: 'Drīz',
     visit: 'Atvērt {domain} ↗',
@@ -54,21 +54,21 @@ module.exports = {
   },
   ba: {
     eye: 'Pirms / pēc',
-    h2: 'Kā viņu lapa izskatījās telefonā — un *ko es atsūtīju pretī.*',
-    lead: 'Velciet slīdni. Pa kreisi — lapa, kas viņiem bija, pa labi — koncepts, ko viņi saņēma dienas vai divu laikā.',
+    h2: 'Kā viņu lapa izskatījās telefonā un *ko es atsūtīju pretī.*',
+    lead: 'Velciet slīdni. Pa kreisi ir lapa, kas viņiem bija, bet pa labi ir koncepts, ko viņi saņēma dienas vai divu laikā.',
     before: 'Pirms', after: 'Pēc',
     aria: 'Salīdzināt veco un jauno {name} lapu',
-    altNew: '{name} — jaunais koncepts telefonā',
-    altOld: '{name} — vecā lapa telefonā'
+    altNew: '{name}: jaunais koncepts telefonā',
+    altOld: '{name}: vecā lapa telefonā'
   },
   proc: {
     eye: 'Kā tas notiek',
     h2: 'Jūs neko neriskējat, *kamēr neesat redzējuši lapu.*',
     lead: 'Četri soļi, parasti vienas nedēļas laikā. Zvanīt nav obligāti: viss notiek rakstiski un jūsu valodā.',
     steps: [
-      ['Es jūs atrodu', 'Parasti uzņēmumu katalogā: ir tālrunis un Facebook lapa, bet nav mājaslapas — vai ir lapa no 2014. gada, kas telefonā izjūk.', '0. diena'],
-      ['Rakstu — jūsu valodā', 'Viena īsa vēstule par vienu konkrētu lietu: fotogrāfijas, ko neviens neredz, numurs, uz kura nevar uzspiest, lapa, kas neatveras ar https.', '0. diena'],
-      ['Saņemat konceptu bez maksas', 'Veidots no jūsu pašu fotogrāfijām, pakalpojumiem un kontaktiem. Saite uz lapu, kas jau darbojas, — varat to atvērt telefonā un parādīt ģimenei.', '1.–2. diena'],
+      ['Es jūs atrodu', 'Parasti uzņēmumu katalogā: ir tālrunis un Facebook lapa, bet nav mājaslapas, vai arī ir lapa no 2014. gada, kas telefonā izjūk.', '0. diena'],
+      ['Rakstu jūsu valodā', 'Viena īsa vēstule par vienu konkrētu lietu: fotogrāfijas, ko neviens neredz, numurs, uz kura nevar uzspiest, lapa, kas neatveras ar https.', '0. diena'],
+      ['Saņemat konceptu bez maksas', 'Veidots no jūsu pašu fotogrāfijām, pakalpojumiem un kontaktiem. Saite uz lapu, kas jau darbojas: varat to atvērt telefonā un parādīt ģimenei.', '1.-2. diena'],
       ['Sakāt „jā” vai „nē”', '„Jā” nozīmē 300 € par pilnu mājaslapu, visus failus un kodu un mēnesi bezmaksas labojumu. „Nē” nozīmē, ka nekas nav jāmaksā, un, ja lūdzat, konceptu noņemu.', 'Nedēļas laikā']
     ]
   },
@@ -81,19 +81,19 @@ module.exports = {
     rcptTitle: 'Čeks',
     rows: [['Sākumlapas koncepts', '0 €'], ['Pilna mājaslapa līdz 5 lapām', '300 €'], ['Labojumi pirmajā mēnesī', '0 €'], ['Ikmēneša maksa', '0 €']],
     total: 'Kopā, vienreiz',
-    note: 'Maksājums vienreiz — pēc jūsu „jā”.',
+    note: 'Maksājums vienreiz, pēc jūsu „jā”.',
     stamp: 'Maksājat, ja patīk'
   },
   faq: {
     eye: 'Jautājumi',
     h2: 'Ko īpašnieki parasti *jautā vispirms.*',
     items: [
-      ['Kāpēc koncepts ir bez maksas?', 'Tāpēc, ka parādīt ir ātrāk nekā izskaidrot. Konceptu veidoju tikai tad, kad jau redzu, kas jūsu lapai trūkst, — un, ieraugot savu uzņēmumu telefonā, lielākā daļa īpašnieku izlemj minūtes laikā.'],
+      ['Kāpēc koncepts ir bez maksas?', 'Tāpēc, ka parādīt ir ātrāk nekā izskaidrot. Konceptu veidoju tikai tad, kad jau redzu, kas jūsu lapai trūkst. Ieraugot savu uzņēmumu telefonā, lielākā daļa īpašnieku izlemj minūtes laikā.'],
       ['Kas man jāsagatavo?', 'Nekas. Fotogrāfijas, pakalpojumus un kontaktus ņemu no jūsu esošās lapas, Facebook lapas vai kataloga. Ja jums ir labākas fotogrāfijas, atsūtiet tās vēlāk.'],
       ['Ko tieši es saņemu par 300 €?', 'Pilnu mājaslapu līdz 5 lapām uz jūsu domēna: veidotu vispirms telefonam, ar jūsu tekstiem un fotogrāfijām, visus failus un pirmkodu, kā arī mēnesi bezmaksas labojumu pēc palaišanas.'],
       ['Vai ir ikmēneša maksājumi?', 'Nē. 300 € vienreiz. Domēns tiek pagarināts pie jūsu reģistratora kā parasti, bet hostings šādai lapai var būt bez maksas.'],
-      ['Cik daudz laika tas aizņem?', 'Koncepts — dienu vai divas. Pilna mājaslapa pēc jūsu „jā” — parasti nedēļas laikā.'],
-      ['Vai obligāti jārunā pa telefonu?', 'Nē. Visu var izdarīt rakstiski, jūsu valodā: e-pastā, WhatsApp, Viber vai Telegram. Ja ērtāk piezvanīt — arī var.'],
+      ['Cik daudz laika tas aizņem?', 'Koncepts ir gatavs dienas vai divu laikā. Pilna mājaslapa pēc jūsu „jā” parasti ir gatava nedēļas laikā.'],
+      ['Vai obligāti jārunā pa telefonu?', 'Nē. Visu var izdarīt rakstiski, jūsu valodā: e-pastā, WhatsApp, Viber vai Telegram. Ja ērtāk piezvanīt, arī var.'],
       ['Un ja es saku „nē”?', 'Tad jūs neko nemaksājat. Koncepts ir atzīmēts kā neoficiāls, un, ja lūdzat, es to noņemu.'],
       ['Jūs esat Ukrainā. Vai tas nav risks?', 'Jūsu lapa un faili atrodas hostingā ārpus Ukrainas, tāpēc nekas nav atkarīgs no mana elektrotīkla. Un atbildu dienas laikā.']
     ]
@@ -148,8 +148,8 @@ module.exports = {
     hiText: 'Šis ir portfolio, no kura nāk jūsu koncepts.',
     hiOpen: 'Atvērt jūsu konceptu ↗',
     you: 'Jūsu koncepts',
-    clockOn: 'Kijivā tagad ir {t} — visticamāk, esmu tiešsaistē.',
-    clockOff: 'Kijivā tagad ir {t} — atbildēšu no rīta.',
+    clockOn: 'Kijivā tagad ir {t}. Visticamāk, esmu tiešsaistē.',
+    clockOff: 'Kijivā tagad ir {t}, tāpēc atbildēšu no rīta.',
     copied: 'Nokopēts: {mail}',
     answer: 'Atbildu dienas laikā.',
     mailSubject: 'Bezmaksas koncepts: {biz}',

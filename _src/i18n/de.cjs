@@ -1,15 +1,15 @@
 module.exports = {
   meta: {
-    title: 'Websites für Handwerksbetriebe — ab 300 € | Artur Vasilyan (Vasylian)',
-    desc: 'Kostenloses Startseiten-Konzept für Handwerksbetriebe. Die fertige Website ab 300 € einmalig — Sie zahlen nur, wenn sie Ihnen gefällt.',
+    title: 'Websites für Handwerksbetriebe, ab 300 € | Artur Vasilyan (Vasylian)',
+    desc: 'Kostenloses Startseiten-Konzept für Handwerksbetriebe. Die fertige Website ab 300 € einmalig. Sie zahlen nur, wenn sie Ihnen gefällt.',
     og: 'Erst ein kostenloses Startseiten-Konzept. Ab 300 € einmalig, nur wenn es gefällt. In Ihrer Sprache.',
-    offer: 'Erst ein kostenloses Startseiten-Konzept; die komplette Website (bis 5 Seiten) für einmalig 300 € — nur wenn der Kunde Ja sagt.'
+    offer: 'Erst ein kostenloses Startseiten-Konzept; die komplette Website (bis 5 Seiten) für einmalig 300 €, nur wenn der Kunde Ja sagt.'
   },
   nav: { label: 'Hauptmenü', home: 'Startseite', work: 'Arbeiten', clients: 'Kunden', process: 'Ablauf', price: 'Preis', faq: 'Fragen', cta: 'Gratis-Konzept', lang: 'Sprache', theme: 'Hell / dunkel', themeDark: 'Dunkles Design einschalten', skip: 'Zu den Arbeiten' },
   hero: {
     eye: 'Webdesigner & Entwickler · für Betriebe in ganz Europa',
     h1: 'Websites für Menschen, die mit *ihren Händen* arbeiten.',
-    sub: 'Tore, Küchen, Dächer, Sanierungen, Werkstätten, Lkw-Waschanlagen. Ich finde kleine Handwerksbetriebe, die online kaum zu finden sind, baue ihnen kostenlos ein Startseiten-Konzept — und Sie zahlen ab <b>300&nbsp;€</b> einmalig, aber nur, wenn Ihnen das Ergebnis gefällt.',
+    sub: 'Tore, Küchen, Dächer, Sanierungen, Werkstätten, Lkw-Waschanlagen. Ich finde kleine Handwerksbetriebe, die online kaum zu finden sind, und baue ihnen kostenlos ein Startseiten-Konzept. Sie zahlen ab <b>300&nbsp;€</b> einmalig, aber nur, wenn Ihnen das Ergebnis gefällt.',
     readIn: 'Lesen auf',
     cta1: 'Kostenloses Konzept anfragen',
     cta2: 'Alle {n} Projekte →',
@@ -28,7 +28,7 @@ module.exports = {
   clients: {
     eye: 'Kunden',
     h2: 'Es begann mit einem kostenlosen Konzept. *Jetzt ist es ihre Website.*',
-    lead: 'Diese Betriebe haben Ja gesagt. Jeder hat die komplette Website auf der eigenen Domain bekommen, in der eigenen Sprache — und alle Dateien dazu.',
+    lead: 'Diese Betriebe haben Ja gesagt. Jeder hat die komplette Website auf der eigenen Domain und in der eigenen Sprache bekommen, dazu alle Dateien.',
     live: 'Online',
     soon: 'Bald online',
     visit: '{domain} öffnen ↗',
@@ -54,21 +54,21 @@ module.exports = {
   },
   ba: {
     eye: 'Vorher / nachher',
-    h2: 'So sah ihre Seite auf dem Handy aus — und *das habe ich zurückgeschickt.*',
+    h2: 'So sah ihre Seite auf dem Handy aus, und *das habe ich zurückgeschickt.*',
     lead: 'Ziehen Sie den Regler. Links die Seite, die sie hatten, rechts das Konzept, das sie nach ein, zwei Tagen bekamen.',
     before: 'Vorher', after: 'Nachher',
     aria: 'Alte und neue Seite von {name} vergleichen',
-    altNew: '{name} — neues Konzept auf dem Handy',
-    altOld: '{name} — alte Seite auf dem Handy'
+    altNew: '{name}: neues Konzept auf dem Handy',
+    altOld: '{name}: alte Seite auf dem Handy'
   },
   proc: {
     eye: 'Ablauf',
     h2: 'Sie riskieren nichts, *bis Sie die Seite gesehen haben.*',
     lead: 'Vier Schritte, meist innerhalb einer Woche. Telefonate sind nicht nötig: Alles läuft schriftlich und in Ihrer Sprache.',
     steps: [
-      ['Ich finde Sie', 'Meist in einem Branchenverzeichnis: eine Telefonnummer und eine Facebook-Seite, aber keine Website — oder eine Seite von 2014, die auf dem Handy zerfällt.', 'Tag 0'],
-      ['Ich schreibe Ihnen — in Ihrer Sprache', 'Eine kurze E-Mail zu einer konkreten Sache: Fotos, die niemand sieht, eine Nummer, die man nicht antippen kann, eine Seite, die nicht über https öffnet.', 'Tag 0'],
-      ['Sie bekommen ein Konzept, kostenlos', 'Aus Ihren eigenen Fotos, Leistungen und Kontakten. Als Live-Link, damit Sie es auf dem Handy öffnen und der Familie zeigen können.', 'Tag 1–2'],
+      ['Ich finde Sie', 'Meist in einem Branchenverzeichnis: eine Telefonnummer und eine Facebook-Seite, aber keine Website. Oder eine Seite von 2014, die auf dem Handy zerfällt.', 'Tag 0'],
+      ['Ich schreibe Ihnen in Ihrer Sprache', 'Eine kurze E-Mail zu einer konkreten Sache: Fotos, die niemand sieht, eine Nummer, die man nicht antippen kann, eine Seite, die nicht über https öffnet.', 'Tag 0'],
+      ['Sie bekommen ein Konzept, kostenlos', 'Aus Ihren eigenen Fotos, Leistungen und Kontakten. Als Live-Link, damit Sie es auf dem Handy öffnen und der Familie zeigen können.', 'Tag 1-2'],
       ['Sie sagen Ja oder Nein', 'Ja heißt 300 € für die komplette Website, alle Dateien und den Code sowie einen Monat kostenlose Änderungen. Nein heißt: Sie zahlen nichts, und auf Wunsch nehme ich das Konzept offline.', 'Innerhalb einer Woche']
     ]
   },
@@ -81,14 +81,14 @@ module.exports = {
     rcptTitle: 'Beleg',
     rows: [['Startseiten-Konzept', '0 €'], ['Komplette Website, bis 5 Seiten', '300 €'], ['Änderungen im ersten Monat', '0 €'], ['Monatsgebühr', '0 €']],
     total: 'Gesamt, einmalig',
-    note: 'Einmal bezahlt — nach Ihrem Ja.',
+    note: 'Einmal bezahlt, nach Ihrem Ja.',
     stamp: 'Nur zahlen, wenn es gefällt'
   },
   faq: {
     eye: 'Fragen',
     h2: 'Was Inhaber *zuerst fragen.*',
     items: [
-      ['Warum ist das Konzept kostenlos?', 'Weil Zeigen schneller geht als Erklären. Ich baue ein Konzept nur, wenn ich schon sehe, was Ihrer Seite fehlt — und wer den eigenen Betrieb auf dem Handy sieht, entscheidet meist in einer Minute.'],
+      ['Warum ist das Konzept kostenlos?', 'Weil Zeigen schneller geht als Erklären. Ich baue ein Konzept nur, wenn ich schon sehe, was Ihrer Seite fehlt. Wer den eigenen Betrieb auf dem Handy sieht, entscheidet meist in einer Minute.'],
       ['Was muss ich vorbereiten?', 'Nichts. Fotos, Leistungen und Kontakte nehme ich von Ihrer aktuellen Website, Ihrer Facebook-Seite oder Ihrem Katalog. Bessere Fotos können Sie später schicken.'],
       ['Was genau bekomme ich für 300 €?', 'Die komplette Website mit bis zu 5 Seiten auf Ihrer Domain: fürs Handy gebaut, mit Ihren Texten und Fotos. Dazu alle Dateien und den Quellcode sowie einen Monat kostenlose Änderungen nach dem Start.'],
       ['Gibt es monatliche Kosten?', 'Nein. 300 € einmalig. Die Domain verlängern Sie wie gewohnt bei Ihrem Anbieter, und das Hosting für so eine Seite kann kostenlos sein.'],
@@ -148,8 +148,8 @@ module.exports = {
     hiText: 'Das ist das Portfolio hinter dem Konzept, das ich Ihnen geschickt habe.',
     hiOpen: 'Ihr Konzept öffnen ↗',
     you: 'Ihr Konzept',
-    clockOn: 'In Kyjiw ist es {t} — ich bin wahrscheinlich erreichbar.',
-    clockOff: 'In Kyjiw ist es {t} — ich antworte am Morgen.',
+    clockOn: 'In Kyjiw ist es {t}, ich bin also wahrscheinlich erreichbar.',
+    clockOff: 'In Kyjiw ist es {t}, ich antworte also am Morgen.',
     copied: 'Kopiert: {mail}',
     answer: 'Ich antworte innerhalb eines Tages.',
     mailSubject: 'Kostenloses Konzept für {biz}',

@@ -1,9 +1,9 @@
 module.exports = {
   meta: {
-    title: 'Svetainių kūrimas mažoms įmonėms — nuo 300 € | Artur Vasilyan (Vasylian)',
+    title: 'Svetainių kūrimas mažoms įmonėms, nuo 300 € | Artur Vasilyan (Vasylian)',
     desc: 'Nemokama pagrindinio puslapio koncepcija statybų, stogų ir autoservisų įmonėms. Svetainė nuo 300 € vieną kartą, be mėnesinio mokesčio.',
-    og: 'Pirmiausia — nemokama pagrindinio puslapio koncepcija. Nuo 300 € vieną kartą, tik jei patiks. Jūsų kalba.',
-    offer: 'Pirmiausia nemokama pagrindinio puslapio koncepcija; visa svetainė (iki 5 puslapių) už 300 € vieną kartą — tik jei klientas sako „taip“.'
+    og: 'Pirmiausia nemokama pagrindinio puslapio koncepcija. Nuo 300 € vieną kartą, tik jei patiks. Jūsų kalba.',
+    offer: 'Pirmiausia nemokama pagrindinio puslapio koncepcija; visa svetainė (iki 5 puslapių) už 300 € vieną kartą, tik jei klientas sako „taip“.'
   },
   nav: { label: 'Pagrindinis meniu', home: 'pradžia', work: 'Darbai', clients: 'Klientai', process: 'Kaip tai vyksta', price: 'Kaina', faq: 'Klausimai', cta: 'Nemokama koncepcija', lang: 'Kalba', theme: 'Šviesi / tamsi', themeDark: 'Įjungti tamsią temą', skip: 'Pereiti prie darbų' },
   hero: {
@@ -22,13 +22,13 @@ module.exports = {
   offer: {
     label: 'Pasiūlymas trimis eilutėmis',
     s1: 'Atsiunčiu nuorodą į veikiančią nemokamą pagrindinio puslapio koncepciją.',
-    s2: 'Patinka → <b>300&nbsp;€</b> vieną kartą. Visa svetainė iki 5 puslapių — jūsų domene. Visi failai jūsų.',
+    s2: 'Patinka → <b>300&nbsp;€</b> vieną kartą. Visa svetainė iki 5 puslapių jūsų domene. Visi failai jūsų.',
     s3: 'Nepatinka → nieko nemokate. Paprašius koncepciją pašalinu.'
   },
   clients: {
     eye: 'Klientai',
     h2: 'Prasidėjo nuo nemokamos koncepcijos. *Dabar tai jų svetainė.*',
-    lead: 'Šios įmonės pasakė „taip“. Kiekviena gavo visą svetainę savo domene, savo kalba — ir visus failus.',
+    lead: 'Šios įmonės pasakė „taip“. Kiekviena gavo visą svetainę savo domene ir savo kalba, taip pat visus failus.',
     live: 'Veikia',
     soon: 'Netrukus',
     visit: 'Atidaryti {domain} ↗',
@@ -38,11 +38,11 @@ module.exports = {
   work: {
     eye: 'Darbai',
     h2: '{sites} pagrindiniai puslapiai tikroms įmonėms *{countries} šalyse.*',
-    lead: 'Dauguma — koncepcijos: sukurtos iš kiekvienos įmonės viešų nuotraukų ir tekstų, be užsakymo, kaip nemokamas pirmas žingsnis. Filtruokite pagal šalį ar sritį, bakstelėkite kortelę, kad apžiūrėtumėte išsamiau.',
+    lead: 'Dauguma jų yra koncepcijos, sukurtos iš kiekvienos įmonės viešų nuotraukų ir tekstų, be užsakymo, kaip nemokamas pirmas žingsnis. Filtruokite pagal šalį ar sritį, bakstelėkite kortelę, kad apžiūrėtumėte išsamiau.',
     byCountry: 'Šalis',
     byTrade: 'Sritis',
     all: 'Visi',
-    mapCap: 'Kiekvienas taškas — miestas, kuriame įmonė gavo iš manęs puslapį. Bakstelėkite šalį, kad filtruotumėte.',
+    mapCap: 'Kiekvienas taškas žymi miestą, kuriame įmonė gavo iš manęs puslapį. Bakstelėkite šalį, kad filtruotumėte.',
     badgeConcept: 'Koncepcija · ne oficiali svetainė',
     badgeLive: 'Kliento svetainė',
     badgeClient: 'Kliento svetainė · netrukus',
@@ -54,21 +54,21 @@ module.exports = {
   },
   ba: {
     eye: 'Prieš / po',
-    h2: 'Kaip jų svetainė atrodė telefone — ir *ką jiems atsiunčiau.*',
-    lead: 'Patraukite slankiklį. Kairėje — svetainė, kurią jie turėjo, dešinėje — koncepcija, kurią gavo per dieną ar dvi.',
+    h2: 'Kaip jų svetainė atrodė telefone ir *ką jiems atsiunčiau.*',
+    lead: 'Patraukite slankiklį. Kairėje yra svetainė, kurią jie turėjo, o dešinėje yra koncepcija, kurią gavo per dieną ar dvi.',
     before: 'Prieš', after: 'Po',
     aria: 'Palyginti seną ir naują {name} puslapį',
-    altNew: '{name} — nauja koncepcija telefone',
-    altOld: '{name} — sena svetainė telefone'
+    altNew: '{name}: nauja koncepcija telefone',
+    altOld: '{name}: sena svetainė telefone'
   },
   proc: {
     eye: 'Kaip tai vyksta',
     h2: 'Nieko nerizikuojate, *kol nepamatote puslapio.*',
     lead: 'Keturi žingsniai, paprastai per vieną savaitę. Skambinti nebūtina: viskas vyksta raštu ir jūsų kalba.',
     steps: [
-      ['Aš jus randu', 'Dažniausiai įmonių kataloge: yra telefonas ir Facebook puslapis, bet nėra svetainės — arba svetainė iš 2014 metų, kuri telefone subyra.', 'Diena 0'],
-      ['Rašau — jūsų kalba', 'Vienas trumpas laiškas apie vieną konkretų dalyką: nuotraukas, kurių niekas nemato, numerį, kurio negalima paspausti, svetainę, kuri neatsidaro per https.', 'Diena 0'],
-      ['Gaunate koncepciją nemokamai', 'Iš jūsų pačių nuotraukų, paslaugų ir kontaktų. Tai veikianti nuoroda — galite ją atsidaryti telefone ir parodyti šeimai.', 'Diena 1–2'],
+      ['Aš jus randu', 'Dažniausiai įmonių kataloge: yra telefonas ir Facebook puslapis, bet nėra svetainės arba yra svetainė iš 2014 metų, kuri telefone subyra.', 'Diena 0'],
+      ['Rašau jūsų kalba', 'Vienas trumpas laiškas apie vieną konkretų dalyką: nuotraukas, kurių niekas nemato, numerį, kurio negalima paspausti, svetainę, kuri neatsidaro per https.', 'Diena 0'],
+      ['Gaunate koncepciją nemokamai', 'Iš jūsų pačių nuotraukų, paslaugų ir kontaktų. Tai veikianti nuoroda: galite ją atsidaryti telefone ir parodyti šeimai.', 'Diena 1-2'],
       ['Sakote „taip“ arba „ne“', '„Taip“ reiškia 300 € už visą svetainę, visus failus ir kodą bei mėnesį nemokamų pataisymų. „Ne“ reiškia, kad nieko nemokate, o paprašius koncepciją pašalinsiu.', 'Per savaitę']
     ]
   },
@@ -81,19 +81,19 @@ module.exports = {
     rcptTitle: 'Kvitas',
     rows: [['Pagrindinio puslapio koncepcija', '0 €'], ['Visa svetainė iki 5 puslapių', '300 €'], ['Pataisymai pirmą mėnesį', '0 €'], ['Mėnesinis mokestis', '0 €']],
     total: 'Iš viso, vieną kartą',
-    note: 'Mokama vieną kartą — po jūsų „taip“.',
+    note: 'Mokama vieną kartą, po jūsų „taip“.',
     stamp: 'Mokate, jei patinka'
   },
   faq: {
     eye: 'Klausimai',
     h2: 'Ko savininkai *klausia pirmiausia.*',
     items: [
-      ['Kodėl koncepcija nemokama?', 'Nes parodyti greičiau nei paaiškinti. Koncepciją kuriu tik tada, kai jau matau, ko trūksta jūsų svetainei, — o pamatę savo įmonę telefone dauguma savininkų nusprendžia per minutę.'],
+      ['Kodėl koncepcija nemokama?', 'Nes parodyti greičiau nei paaiškinti. Koncepciją kuriu tik tada, kai jau matau, ko trūksta jūsų svetainei, o pamatę savo įmonę telefone dauguma savininkų nusprendžia per minutę.'],
       ['Ką man reikia paruošti?', 'Nieko. Nuotraukas, paslaugas ir kontaktus paimu iš jūsų esamos svetainės, Facebook puslapio ar katalogo. Jei turite geresnių nuotraukų, atsiųsite vėliau.'],
       ['Ką tiksliai gaunu už 300 €?', 'Visą svetainę iki 5 puslapių jūsų domene: sukurtą pirmiausia telefonui, su jūsų tekstais ir nuotraukomis, visus failus ir išeities kodą bei mėnesį nemokamų pataisymų po paleidimo.'],
       ['Ar yra mėnesinių mokesčių?', 'Ne. 300 € vieną kartą. Domenas pratęsiamas pas jūsų registratorių kaip įprasta, o talpinimas tokiai svetainei gali būti nemokamas.'],
-      ['Kiek tai užtrunka?', 'Koncepcija — dieną ar dvi. Visa svetainė po jūsų „taip“ — paprastai per savaitę.'],
-      ['Ar būtina kalbėtis telefonu?', 'Ne. Viską galima padaryti raštu, jūsų kalba: el. paštu, WhatsApp, Viber ar Telegram. Jei patogiau paskambinti — irgi galima.'],
+      ['Kiek tai užtrunka?', 'Koncepcija paruošiama per dieną ar dvi. Visa svetainė po jūsų „taip“ paprastai paruošiama per savaitę.'],
+      ['Ar būtina kalbėtis telefonu?', 'Ne. Viską galima padaryti raštu, jūsų kalba: el. paštu, WhatsApp, Viber ar Telegram. Jei patogiau paskambinti, irgi galima.'],
       ['O jei pasakysiu „ne“?', 'Tada nieko nemokate. Koncepcija pažymėta kaip neoficiali, o paprašius ją pašalinsiu.'],
       ['Jūs Ukrainoje. Ar tai ne rizika?', 'Jūsų svetainė ir failai laikomi serveriuose už Ukrainos ribų, todėl niekas nepriklauso nuo mano elektros tinklo. Ir atsakau per dieną.']
     ]
@@ -148,8 +148,8 @@ module.exports = {
     hiText: 'Tai portfolio, iš kurio atkeliavo jūsų koncepcija.',
     hiOpen: 'Atidaryti savo koncepciją ↗',
     you: 'Jūsų koncepcija',
-    clockOn: 'Kyjive dabar {t} — greičiausiai atsakysiu netrukus.',
-    clockOff: 'Kyjive dabar {t} — atsakysiu ryte.',
+    clockOn: 'Kyjive dabar {t}, tad greičiausiai atsakysiu netrukus.',
+    clockOff: 'Kyjive dabar {t}, tad atsakysiu ryte.',
     copied: 'Nukopijuota: {mail}',
     answer: 'Atsakau per dieną.',
     mailSubject: 'Nemokama koncepcija: {biz}',
