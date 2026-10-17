@@ -54,6 +54,21 @@ module.exports = [
       'Производитель ворот и заборов в Видземе. Начиналось как бесплатный концепт, а стало сайтом на 8 страниц на собственном домене: ворота, двери, заборы и автоматика.'
     ]) },
 
+  { id: 'vmbuve', kind: 'live', name: 'V & M Būve', city: 'Salacgrīva', cc: 'LV', geo: [57.75, 24.36], trade: 'build', langs: ['lv'],
+    url: 'https://vmbuve.lv/', domain: 'vmbuve.lv',
+    craft: L(['Full-cycle construction & renovation', 'Pilna cikla būvniecība un renovācija', 'Viso ciklo statyba ir renovacija', 'Täistsükliga ehitus ja renoveerimine', 'Budowa i remonty w pełnym zakresie', 'Bau und Sanierung aus einer Hand', 'Будівництво й ремонт повного циклу', 'Строительство и ремонт полного цикла']),
+    tag: L(['5 pages, jobs with video', '5 lapas, darbi ar video', '5 puslapiai, darbai su vaizdo įrašais', '5 lehte, tööd videoga', '5 podstron, realizacje z wideo', '5 Seiten, Referenzen mit Video', '5 сторінок, роботи з відео', '5 страниц, работы с видео']),
+    story: L([
+      'A construction company in Salacgrīva: houses and commercial buildings, facades, roofs, lift shafts. It started as a free concept and is now five pages on their own domain with photos and video of their jobs.',
+      'Būvuzņēmums Salacgrīvā: privātmājas un komerciālie objekti, fasādes, jumti, lifta šahtas. Sākās kā bezmaksas koncepts, tagad tās ir piecas lapas uz pašu domēna ar darbu foto un video.',
+      'Statybų įmonė Salacgryvoje (Latvija): privatūs namai ir komerciniai objektai, fasadai, stogai, liftų šachtos. Prasidėjo nuo nemokamos koncepcijos, dabar tai penki puslapiai savame domene su darbų nuotraukomis ir vaizdo įrašais.',
+      'Ehitusettevõte Salacgrīvas: eramud ja äripinnad, fassaadid, katused, liftišahtid. Algas tasuta kavandina, nüüd on see viis lehte oma domeenil tööde fotode ja videoga.',
+      'Firma budowlana z Salacgrīvy: domy i obiekty komercyjne, elewacje, dachy, szyby windowe. Zaczęło się od darmowego projektu, teraz to pięć podstron we własnej domenie ze zdjęciami i wideo realizacji.',
+      'Ein Bauunternehmen in Salacgrīva: Wohnhäuser und Gewerbeobjekte, Fassaden, Dächer, Aufzugsschächte. Aus dem kostenlosen Konzept wurden fünf Seiten auf der eigenen Domain mit Fotos und Videos der Arbeiten.',
+      'Будівельна компанія в Салацгріві: приватні будинки й комерційні об’єкти, фасади, дахи, ліфтові шахти. Почалося з безкоштовного концепту, тепер це п’ять сторінок на власному домені з фото й відео робіт.',
+      'Строительная компания в Салацгриве: частные дома и коммерческие объекты, фасады, крыши, лифтовые шахты. Началось с бесплатного концепта, теперь это пять страниц на собственном домене с фото и видео работ.'
+    ]) },
+
   /* ---------------- concepts ---------------- */
   { id: 'janbra', kind: 'concept', name: 'JanBra OÜ', city: 'Kuusalu', cc: 'EE', geo: [59.45, 25.44], trade: 'interior', langs: ['et'], url: V('janbra-concept'), domain: D('janbra-concept'),
     craft: L(['Furniture assembly & joinery', 'Mēbeļu montāža un galdniecība', 'Baldų surinkimas ir staliaus darbai', 'Mööblipaigaldus ja puusepatööd', 'Montaż mebli i stolarka', 'Möbelmontage & Tischlerei', 'Складання меблів і столярка', 'Сборка мебели и столярка']),
