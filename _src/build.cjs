@@ -220,7 +220,8 @@ ${alternates}
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="${P}assets/css/style.css?v=${V_CSS}">
-<script>(function(d){d.classList.add('js');try{var t=localStorage.getItem('theme');if(t)d.setAttribute('data-theme',t)}catch(e){}if(!matchMedia('(prefers-reduced-motion: reduce)').matches){d.classList.add('js-anim');setTimeout(function(){d.classList.remove('js-anim')},1200)}})(document.documentElement)</script>
+${code === 'en' ? `<script>/* 17.10: cold letters link to vasylian.com; open the visitor's language unless they chose EN */(function(){try{var s=localStorage.getItem('lang');if(s==='en'||/[?&]lang=en/.test(location.search))return;var m={lv:'lv/',lt:'lt/',et:'ee/',pl:'pl/',de:'de/',uk:'ua/',ru:'ru/'};var c=s||((navigator.languages&&navigator.languages[0])||navigator.language||'').slice(0,2).toLowerCase();if(m[c])location.replace(m[c]+location.search+location.hash)}catch(e){}})()</script>
+` : ''}<script>(function(d){d.classList.add('js');try{var t=localStorage.getItem('theme');if(t)d.setAttribute('data-theme',t)}catch(e){}if(!matchMedia('(prefers-reduced-motion: reduce)').matches){d.classList.add('js-anim');setTimeout(function(){d.classList.remove('js-anim')},1200)}})(document.documentElement)</script>
 <script type="application/ld+json">${JSON.stringify(ld)}</script>
 </head>
 <body>
