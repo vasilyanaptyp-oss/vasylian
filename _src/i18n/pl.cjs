@@ -1,15 +1,15 @@
 module.exports = {
   meta: {
-    title: 'Strony dla firm rzemieślniczych, od 300 € | Artur Vasilyan (Vasylian)',
-    desc: 'Darmowy projekt strony głównej dla firm budowlanych, dekarskich i warsztatów. Strona od 300 € jednorazowo. Płacą Państwo tylko, jeśli się spodoba.',
-    og: 'Najpierw darmowy projekt strony głównej. Od 300 € jednorazowo, tylko jeśli się spodoba. W Państwa języku.',
-    offer: 'Najpierw darmowy projekt strony głównej; cała strona (do 5 podstron) za 300 € jednorazowo, tylko jeśli klient powie „tak”.'
+    title: 'Strony dla firm rzemieślniczych, od 1 990 zł | Artur Vasilyan (Vasylian)',
+    desc: 'Darmowy projekt strony głównej dla firm budowlanych, dekarskich i warsztatów. Strona od 1 990 zł jednorazowo. Płacą Państwo tylko, jeśli się spodoba.',
+    og: 'Najpierw darmowy projekt strony głównej. Od 1 990 zł jednorazowo, tylko jeśli się spodoba. W Państwa języku.',
+    offer: 'Najpierw darmowy projekt strony głównej; cała strona (do 5 podstron) za 1 990 zł jednorazowo, tylko jeśli klient powie „tak”.'
   },
   nav: { label: 'Menu główne', home: 'strona główna', work: 'Realizacje', clients: 'Klienci', process: 'Jak to działa', price: 'Cena', faq: 'Pytania', cta: 'Darmowy projekt', lang: 'Język', theme: 'Jasny / ciemny', themeDark: 'Włącz ciemny motyw', skip: 'Przejdź do realizacji' },
   hero: {
     eye: 'Projektant stron · pracuję z firmami w całej Europie',
     h1: 'Strony dla ludzi, którzy pracują *rękami.*',
-    sub: 'Bramy, kuchnie, dachy, remonty, warsztaty, myjnie ciężarówek. Znajduję małe firmy rzemieślnicze, których nie widać w internecie, robię im za darmo projekt strony głównej, a od <b>300&nbsp;€</b> (ok. 1&nbsp;300&nbsp;zł) płacą tylko wtedy, gdy im się spodoba.',
+    sub: 'Bramy, kuchnie, dachy, remonty, warsztaty, myjnie ciężarówek. Znajduję małe firmy rzemieślnicze, których nie widać w internecie, robię im za darmo projekt strony głównej, a od <b>1&nbsp;990&nbsp;zł</b> (ok. 1&nbsp;300&nbsp;zł) płacą tylko wtedy, gdy im się spodoba.',
     readIn: 'Wersje językowe',
     cta1: 'Chcę darmowy projekt',
     cta2: 'Wszystkie {n} projektów →',
@@ -22,7 +22,7 @@ module.exports = {
   offer: {
     label: 'Oferta w trzech zdaniach',
     s1: 'Wysyłam darmowy projekt strony głównej jako działający link.',
-    s2: 'Podoba się → <b>300&nbsp;€</b> jednorazowo. Cała strona do 5 podstron w Państwa domenie. Wszystkie pliki są Państwa.',
+    s2: 'Podoba się → <b>1&nbsp;990&nbsp;zł</b> jednorazowo. Cała strona do 5 podstron w Państwa domenie. Wszystkie pliki są Państwa.',
     s3: 'Nie podoba się → nic Państwo nie płacą. Na prośbę usuwam projekt.'
   },
   clients: {
@@ -69,17 +69,17 @@ module.exports = {
       ['Znajduję Państwa firmę', 'Zwykle w katalogu firm: jest telefon i profil na Facebooku, ale nie ma strony albo jest strona z 2014 roku, która rozsypuje się na telefonie.', 'Dzień 0'],
       ['Piszę w Państwa języku', 'Jeden krótki e-mail o jednej konkretnej rzeczy: zdjęciach, których nikt nie widzi, numerze, którego nie da się kliknąć, stronie, która nie otwiera się przez https.', 'Dzień 0'],
       ['Dostają Państwo darmowy projekt', 'Z Państwa własnych zdjęć, usług i kontaktów. Jako działający link, który można otworzyć na telefonie i pokazać rodzinie.', 'Dzień 1-2'],
-      ['Mówią Państwo „tak” albo „nie”', '„Tak” to 300 € za całą stronę, wszystkie pliki i kod oraz miesiąc darmowych poprawek. „Nie” oznacza, że nic Państwo nie płacą, a na prośbę usunę projekt.', 'W ciągu tygodnia']
+      ['Mówią Państwo „tak” albo „nie”', '„Tak” to 1 990 zł za całą stronę, wszystkie pliki i kod oraz miesiąc darmowych poprawek. „Nie” oznacza, że nic Państwo nie płacą, a na prośbę usunę projekt.', 'W ciągu tygodnia']
     ]
   },
   price: {
     eye: 'Cena',
-    h2: '*Od 300 €* jednorazowo. Bez abonamentu.',
-    lead: 'Bez subskrypcji, bez abonamentu, bez niespodzianek na fakturze. Domena jest Państwa, kod jest Państwa, hosting może być darmowy. <b>Płacą Państwo dopiero wtedy, gdy zobaczą swoją stronę główną i powiedzą „tak”.</b> 300 € to ok. 1&nbsp;300&nbsp;zł.',
+    h2: '*Od 1 990 zł* jednorazowo. Bez abonamentu.',
+    lead: 'Bez subskrypcji, bez abonamentu, bez niespodzianek na fakturze. Domena jest Państwa, kod jest Państwa, hosting może być darmowy. <b>Płacą Państwo dopiero wtedy, gdy zobaczą swoją stronę główną i powiedzą „tak”.</b> 1 990 zł to ok. 1&nbsp;300&nbsp;zł.',
     incl: ['Projekt strony głównej przed jakąkolwiek płatnością', 'Cała strona do 5 podstron', 'Szybka, projektowana przede wszystkim na telefon', 'W Państwa języku', 'Wszystkie pliki i kod źródłowy', 'Miesiąc darmowych poprawek', 'Pomoc z domeną i hostingiem', 'E-mail, WhatsApp, Viber, Telegram'],
     cta: 'Chcę darmowy projekt',
     rcptTitle: 'Paragon',
-    rows: [['Projekt strony głównej', '0 €'], ['Cała strona do 5 podstron', '300 €'], ['Poprawki w pierwszym miesiącu', '0 €'], ['Abonament', '0 €']],
+    rows: [['Projekt strony głównej', '0 zł'], ['Cała strona do 5 podstron', '1 990 zł'], ['Poprawki w pierwszym miesiącu', '0 zł'], ['Abonament', '0 zł']],
     total: 'Razem, jednorazowo',
     note: 'Płatność jednorazowa, po Państwa „tak”.',
     stamp: 'Płatne, tylko jeśli się spodoba'
@@ -90,8 +90,8 @@ module.exports = {
     items: [
       ['Dlaczego projekt jest darmowy?', 'Bo pokazać jest szybciej niż wytłumaczyć. Robię projekt tylko wtedy, gdy już widzę, czego brakuje Państwa stronie, a kto zobaczy swoją firmę na telefonie, zwykle decyduje w minutę.'],
       ['Co muszę przygotować?', 'Nic. Zdjęcia, usługi i kontakty biorę z obecnej strony, profilu na Facebooku albo katalogu. Jeśli mają Państwo lepsze zdjęcia, można je przesłać później.'],
-      ['Co dokładnie dostaję za 300 €?', 'Całą stronę do 5 podstron w Państwa domenie: projektowaną przede wszystkim na telefon, z Państwa tekstami i zdjęciami, wszystkie pliki i kod źródłowy oraz miesiąc darmowych poprawek po starcie.'],
-      ['Czy są opłaty miesięczne?', 'Nie. 300 € jednorazowo. Domenę odnawia się u swojego rejestratora jak zwykle, a hosting takiej strony może być darmowy.'],
+      ['Co dokładnie dostaję za 1 990 zł?', 'Całą stronę do 5 podstron w Państwa domenie: projektowaną przede wszystkim na telefon, z Państwa tekstami i zdjęciami, wszystkie pliki i kod źródłowy oraz miesiąc darmowych poprawek po starcie.'],
+      ['Czy są opłaty miesięczne?', 'Nie. 1 990 zł jednorazowo. Domenę odnawia się u swojego rejestratora jak zwykle, a hosting takiej strony może być darmowy.'],
       ['Ile to trwa?', 'Projekt jest gotowy w dzień lub dwa. Cała strona po Państwa „tak” jest zwykle gotowa w ciągu tygodnia.'],
       ['Czy musimy rozmawiać przez telefon?', 'Nie. Wszystko można załatwić na piśmie, w Państwa języku: e-mailem, przez WhatsApp, Viber albo Telegram. Jeśli wolą Państwo rozmowę, też można.'],
       ['A jeśli powiem „nie”?', 'Wtedy nic Państwo nie płacą. Projekt jest oznaczony jako nieoficjalny, a na prośbę go usunę.'],
@@ -126,7 +126,7 @@ module.exports = {
     send: 'Przygotuj e-mail',
     sendNote: 'Otworzy się Państwa poczta z tym tekstem. Nic nie zostanie wysłane, dopóki nie klikną Państwo „Wyślij”.'
   },
-  bar: { label: 'Szybkie akcje', price: '300 € · jak to działa', cta: 'Darmowy projekt' },
+  bar: { label: 'Szybkie akcje', price: '1 990 zł · jak to działa', cta: 'Darmowy projekt' },
   foot: {
     name: 'Artur Vasilyan (Vasylian)',
     city: 'Kijów',
